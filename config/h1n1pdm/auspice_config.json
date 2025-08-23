@@ -1,0 +1,178 @@
+{
+  "title": "Real-time tracking of influenza A/H1N1pdm evolution",
+  "maintainers": [
+    {
+      "name": "John Huddleston",
+      "url": "https://bedford.io/team/john-huddleston/"
+    }
+  ],
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
+  "build_url": "https://github.com/nextstrain/seasonal-flu",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "clade_membership",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "subclade",
+      "title": "Subclade",
+      "type": "categorical",
+      "scale": [
+        [
+          "C.1.9",
+          "#3E5DD0"
+        ],
+        [
+          "C.1.9.1",
+          "#4A8CC2"
+        ],
+        [
+          "C.1.9.2",
+          "#60AA9E"
+        ],
+        [
+          "C.1.9.3",
+          "#80B974"
+        ],
+        [
+          "D",
+          "#A6BE55"
+        ],
+        [
+          "D.1",
+          "#CBB742"
+        ],
+        [
+          "D.3",
+          "#E29D39"
+        ],
+        [
+          "D.3.1",
+          "#E56A2F"
+        ],
+        [
+          "D.5",
+          "#DB2823"
+        ]
+      ]
+    },
+    {
+      "key": "emerging_haplotype",
+      "title": "Emerging haplotype",
+      "type": "categorical",
+      "scale": [
+        [
+          "C.1.9",
+          "#3E5DD0"
+        ],
+        [
+          "C.1.9.1",
+          "#4A8CC2"
+        ],
+        [
+          "C.1.9.2",
+          "#60AA9E"
+        ],
+        [
+          "C.1.9.3",
+          "#80B974"
+        ],
+        [
+          "D",
+          "#A6BE55"
+        ],
+        [
+          "D.1",
+          "#CBB742"
+        ],
+        [
+          "D.3",
+          "#E29D39"
+        ],
+        [
+          "D.3.1",
+          "#E56A2F"
+        ],
+        [
+          "D.5",
+          "#DB2823"
+        ]
+      ]
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+      "key": "submitting_lab",
+      "title": "Submitting lab",
+      "type": "categorical"
+    },
+    {
+      "key": "originating_lab",
+      "title": "Originating lab",
+      "type": "categorical"
+    },
+    {
+      "key": "kikawa",
+      "title": "Experimental strain",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "division",
+    "country",
+    "region"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "color_by": "subclade",
+    "branch_label": "Subclade",
+    "tip_label": "gisaid_strain"
+  },
+  "filters": [
+    "clade_membership",
+    "subclade",
+    "region",
+    "country",
+    "division",
+    "submitting_lab"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "metadata_columns": [
+    "gisaid_strain",
+    "bloom_strain",
+    "accession_ha",
+    "accession_na"
+  ]
+}
