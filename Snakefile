@@ -160,6 +160,8 @@ rule select_contextual_sequences_and_metadata:
         sequences="data/{lineage}/ha.fasta",
         metadata="data/{lineage}/metadata.tsv",
         strains="data/strains-kikawa-2025-SH-VCM-{lineage}.txt",
+        references="config/{lineage}/references.txt",
+        outliers="config/{lineage}/outliers.txt",
     output:
         sequences="builds/{lineage}/contextual_sequences.fasta",
         metadata="builds/{lineage}/contextual_metadata.tsv",
@@ -172,7 +174,8 @@ rule select_contextual_sequences_and_metadata:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --exclude {input.strains} \
+            --exclude {input.strains} {input.outliers} \
+            --include {input.references} \
             --exclude-ambiguous-dates-by any \
             --min-date {params.min_date} \
             --max-date {params.max_date} \
