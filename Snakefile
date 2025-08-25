@@ -3,14 +3,35 @@ MAX_DATE = "2025-08-22"
 MAX_SEQUENCES = 500
 LINEAGES = [
     "h1n1pdm",
+    "h3n2",
 ]
+GENES = [
+    "SigPep",
+    "HA1",
+    "HA2",
+]
+
+NEXTCLADE_DATASET_BY_LINEAGE = {
+    "h1n1pdm": "nextstrain/flu/h1n1pdm/ha",
+    "h3n2": "flu_h3n2_ha_broad",
+}
+SUBCLADE_URL_BY_LINEAGE_AND_SEGMENT = {
+    "h1n1pdm": {
+        "ha": "https://raw.githubusercontent.com/influenza-clade-nomenclature/seasonal_A-H1N1pdm_HA/main/.auto-generated/subclades.tsv",
+    },
+    "h3n2": {
+        "ha": "https://raw.githubusercontent.com/influenza-clade-nomenclature/seasonal_A-H3N2_HA/main/.auto-generated/subclades.tsv",
+    },
+}
 
 wildcard_constraints:
     lineage = r'h1n1pdm|h3n2',
 
 rule all:
     input:
-        trees=expand("auspice/{lineage}_ha.json", lineage=LINEAGES),
+        tree_annotations=expand("tables/{lineage}_annotations.tsv", lineage=LINEAGES),
+        trees=expand("auspice/kikawa-seqneut-2025-VCM_{lineage}.json", lineage=LINEAGES),
+        frequencies=expand("auspice/kikawa-seqneut-2025-VCM_{lineage}_tip-frequencies.json", lineage=LINEAGES),
 
 rule download_kikawa_2025_SH_VCM_strain_sequences:
     output:
@@ -184,12 +205,14 @@ rule get_nextclade_dataset:
     output:
         nextclade_dir=directory("nextclade_dataset/{lineage}_ha/"),
         reference="nextclade_dataset/{lineage}_ha/reference.fasta",
+        annotation="nextclade_dataset/{lineage}_ha/genome_annotation.gff3",
     params:
+        name=lambda wildcards: NEXTCLADE_DATASET_BY_LINEAGE.get(wildcards.lineage, f"nextstrain/flu/{wildcards.lineage}/ha"),
         nextclade_server_arg=lambda wildcards: f"--server={shquotewords(config['nextclade_server'])}" if config.get("nextclade_server") else "",
     shell:
         r"""
         nextclade dataset get \
-            -n 'nextstrain/flu/{wildcards.lineage}/ha' \
+            -n '{params.name}' \
             {params.nextclade_server_arg} \
             --output-dir {output.nextclade_dir}
         """
@@ -200,14 +223,41 @@ rule align:
         nextclade_dataset="nextclade_dataset/{lineage}_ha/",
     output:
         alignment="builds/{lineage}/aligned.fasta",
+        translations=expand("builds/{{lineage}}/translations/{gene}.fasta", gene=GENES),
+        annotations="builds/{lineage}/nextclade.tsv",
+    params:
+        translations_dir="builds/{lineage}/translations",
     shell:
         r"""
-        nextclade run\
+        nextclade run \
             {input.sequences} \
             --input-dataset {input.nextclade_dataset} \
             --gap-alignment-side right \
             --include-reference \
-            --output-fasta {output.alignment}
+            --output-fasta {output.alignment} \
+            --output-translations "{params.translations_dir}/{{cds}}.fasta" \
+            --output-tsv {output.annotations}
+        """
+
+rule merge_nextclade_with_metadata:
+    input:
+        metadata="builds/{lineage}/metadata.tsv",
+        nextclade="builds/{lineage}/nextclade.tsv",
+    output:
+        merged="builds/{lineage}/metadata_with_nextclade.tsv",
+    params:
+        metadata_id="strain",
+        nextclade_id="seqName",
+    shell:
+        r"""
+        augur merge \
+           --metadata \
+             metadata={input.metadata} \
+             nextclade={input.nextclade} \
+           --metadata-id-columns \
+             metadata={params.metadata_id} \
+             nextclade={params.nextclade_id} \
+           --output-metadata {output.merged}
         """
 
 rule tree:
@@ -239,7 +289,6 @@ def clock_rate(wildcards):
     rate = {
         ('h1n1pdm', 'ha'): 0.00329,
         ('h3n2', 'ha'): 0.00382,
-        ('vic', 'ha'): 0.00145,
     }
     return rate.get((wildcards.lineage, "ha"), 0.001)
 
@@ -250,7 +299,7 @@ rule refine:
     input:
         tree="builds/{lineage}/tree_raw.nwk",
         alignment="builds/{lineage}/aligned.fasta",
-        metadata="builds/{lineage}/metadata.tsv",
+        metadata="builds/{lineage}/metadata_with_nextclade.tsv",
         reference="builds/{lineage}/reference_name.txt",
     output:
         tree="builds/{lineage}/tree.nwk",
@@ -283,14 +332,100 @@ rule refine:
             --clock-filter-iqd {params.clock_filter_iqd}
         """
 
+rule ancestral:
+    input:
+        tree="builds/{lineage}/tree.nwk",
+        alignment="builds/{lineage}/aligned.fasta",
+        translations=expand("builds/{{lineage}}/translations/{gene}.fasta", gene=GENES),
+        reference="nextclade_dataset/{lineage}_ha/reference.fasta",
+        annotation="nextclade_dataset/{lineage}_ha/genome_annotation.gff3",
+    output:
+        node_data="builds/{lineage}/muts.json",
+        translations=expand("builds/{{lineage}}/translations/{gene}_withInternalNodes.fasta", gene=GENES),
+    params:
+        inference="joint",
+        genes=GENES,
+        input_translations="builds/{lineage}/translations/%GENE.fasta",
+        output_translations="builds/{lineage}/translations/%GENE_withInternalNodes.fasta",
+    shell:
+        r"""
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --root-sequence {input.reference} \
+            --annotation {input.annotation} \
+            --genes {params.genes} \
+            --translations "{params.input_translations}" \
+            --output-node-data {output.node_data} \
+            --output-translations "{params.output_translations}" \
+            --inference {params.inference}
+        """
+
+rule download_subclades:
+    output:
+        subclades="config/{lineage}/ha/subclades.tsv",
+    params:
+        url=lambda wildcards: SUBCLADE_URL_BY_LINEAGE_AND_SEGMENT.get(wildcards.lineage, {}).get("ha"),
+    shell:
+        r"""
+        curl -o {output.subclades} "{params.url}"
+        """
+
+rule subclades:
+    input:
+        tree="builds/{lineage}/tree.nwk",
+        muts="builds/{lineage}/muts.json",
+        subclades="config/{lineage}/ha/subclades.tsv",
+    output:
+        node_data="builds/{lineage}/subclades.json",
+    params:
+        membership_name = "subclade",
+        label_name = "Subclade",
+    shell:
+        r"""
+        augur clades \
+            --tree {input.tree} \
+            --mutations {input.muts} \
+            --clades {input.subclades} \
+            --membership-name {params.membership_name} \
+            --label-name {params.label_name} \
+            --output {output.node_data}
+        """
+
+rule emerging_haplotypes:
+    input:
+        nextclade="builds/{lineage}/metadata_with_nextclade.tsv",
+        haplotypes="config/{lineage}/emerging_haplotypes.tsv",
+    output:
+        haplotypes_table="builds/{lineage}/emerging_haplotypes.tsv",
+        node_data="builds/{lineage}/emerging_haplotypes.json",
+    params:
+        clade_column="subclade",
+        membership_name="emerging_haplotype",
+    shell:
+        r"""
+        python scripts/assign_haplotypes.py \
+            --substitutions {input.nextclade:q} \
+            --haplotypes {input.haplotypes:q} \
+            --clade-column {params.clade_column:q} \
+            --haplotype-column-name {params.membership_name:q} \
+            --output-table {output.haplotypes_table:q} \
+            --output-node-data {output.node_data:q}
+        """
+
 rule export:
     input:
         tree="builds/{lineage}/tree.nwk",
-        metadata="builds/{lineage}/metadata.tsv",
-        node_data="builds/{lineage}/branch_lengths.json",
+        metadata="builds/{lineage}/metadata_with_nextclade.tsv",
+        node_data=[
+            "builds/{lineage}/branch_lengths.json",
+            "builds/{lineage}/muts.json",
+            "builds/{lineage}/subclades.json",
+            "builds/{lineage}/emerging_haplotypes.json",
+        ],
         auspice_config="config/{lineage}/auspice_config.json",
     output:
-        auspice_json="auspice/{lineage}_ha.json",
+        auspice_json="auspice/kikawa-seqneut-2025-VCM_{lineage}.json",
     shell:
         r"""
         augur export v2 \
@@ -299,4 +434,53 @@ rule export:
             --node-data {input.node_data} \
             --auspice-config {input.auspice_config} \
             --output {output.auspice_json}
+        """
+
+rule tip_frequencies:
+    input:
+        tree="builds/{lineage}/tree.nwk",
+        metadata="builds/{lineage}/metadata_with_nextclade.tsv",
+    output:
+        frequencies="auspice/kikawa-seqneut-2025-VCM_{lineage}_tip-frequencies.json",
+    params:
+        narrow_bandwidth=1 / 12.0,
+        proportion_wide=0.0,
+        min_date=MIN_DATE,
+        max_date=MAX_DATE,
+        pivot_interval=4,
+        pivot_interval_units="weeks",
+    shell:
+        r"""
+        augur frequencies \
+            --method kde \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --narrow-bandwidth {params.narrow_bandwidth} \
+            --proportion-wide {params.proportion_wide} \
+            --pivot-interval {params.pivot_interval} \
+            --pivot-interval-units {params.pivot_interval_units} \
+            --min-date {params.min_date} \
+            --max-date {params.max_date} \
+            --output {output.frequencies}
+        """
+
+rule export_tree_annotations:
+    input:
+        tree="auspice/kikawa-seqneut-2025-VCM_{lineage}.json",
+    output:
+        tree_annotations="tables/{lineage}_annotations.tsv",
+    params:
+        attributes=[
+            "div",
+            "num_date",
+            "kikawa",
+            "subclade",
+        ],
+    shell:
+        r"""
+        python scripts/auspice_tree_to_table.py \
+            {input.tree} \
+            {output.tree_annotations} \
+            --include-internal-nodes \
+            --attributes {params.attributes}
         """
