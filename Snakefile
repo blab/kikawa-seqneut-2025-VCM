@@ -439,6 +439,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.node_data} \
             --auspice-config {input.auspice_config} \
+            --include-root-sequence-inline \
             --output {output.auspice_json}
         """
 
