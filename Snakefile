@@ -422,6 +422,7 @@ rule export:
             "builds/{lineage}/muts.json",
             "builds/{lineage}/subclades.json",
             "builds/{lineage}/emerging_haplotypes.json",
+            "config/{lineage}/vaccine.json",
         ],
         auspice_config="config/{lineage}/auspice_config.json",
     output:
