@@ -230,10 +230,12 @@ rule align:
         annotations="builds/{lineage}/nextclade.tsv",
     params:
         translations_dir="builds/{lineage}/translations",
+    threads: 8
     shell:
         r"""
         nextclade run \
             {input.sequences} \
+            --jobs {threads} \
             --input-dataset {input.nextclade_dataset} \
             --gap-alignment-side right \
             --include-reference \
