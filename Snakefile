@@ -193,7 +193,7 @@ rule merge_metadata_and_sequences:
         contextual_sequences="builds/{lineage}/contextual_sequences.fasta",
     output:
         sequences="builds/{lineage}/sequences.fasta",
-        metadata="builds/{lineage}/metadata.tsv",
+        metadata="builds/{lineage}/metadata_merged.tsv",
     shell:
         r"""
         augur merge \
@@ -202,6 +202,16 @@ rule merge_metadata_and_sequences:
             --source-columns "{{NAME}}" \
             --output-sequences {output.sequences} \
             --output-metadata {output.metadata}
+        """
+
+rule fixup_metadata_source_values:
+    input:
+        metadata="builds/{lineage}/metadata_merged.tsv",
+    output:
+        metadata="builds/{lineage}/metadata.tsv",
+    shell:
+        r"""
+        csvtk replace -t -f kikawa,contextual -p '(0|1)' -r 'present_$1' {input.metadata} > {output.metadata}
         """
 
 rule get_nextclade_dataset:

@@ -135,8 +135,8 @@
       "title": "Experimental strain",
       "type": "categorical",
       "scale": [
-        [0, "#CCCCCC"],
-        [1, "#E6B400"]
+        ["present_0", "#CCCCCC"],
+        ["present_1", "#E6B400"]
       ]
     }
   ],
