@@ -5,6 +5,10 @@ LINEAGES = [
     "h1n1pdm",
     "h3n2",
 ]
+LINEAGE_TO_BLOOM_LINEAGE = {
+    "h1n1pdm": "H1N1",
+    "h3n2": "H3N2",
+}
 GENES = [
     "SigPep",
     "HA1",
@@ -24,6 +28,9 @@ SUBCLADE_URL_BY_LINEAGE_AND_SEGMENT = {
     },
 }
 
+TITER_METADATA_URL = "https://github.com/jbloomlab/flu-seqneut-2025/raw/refs/heads/main/results/aggregated_analyses/human_sera_metadata.csv"
+TITER_DATA_URL = "https://github.com/jbloomlab/flu-seqneut-2025/raw/refs/heads/main/results/aggregated_analyses/human_sera_titers.csv"
+
 wildcard_constraints:
     lineage = r'h1n1pdm|h3n2',
 
@@ -32,6 +39,11 @@ rule all:
         tree_annotations=expand("tables/{lineage}_annotations.tsv", lineage=LINEAGES),
         trees=expand("auspice/kikawa-seqneut-2025-VCM_{lineage}.json", lineage=LINEAGES),
         frequencies=expand("auspice/kikawa-seqneut-2025-VCM_{lineage}_tip-frequencies.json", lineage=LINEAGES),
+        measurements=expand("auspice/kikawa-seqneut-2025-VCM_{lineage}_measurements.json", lineage=LINEAGES),
+
+#
+# Prepare sequences and metadata.
+#
 
 rule download_kikawa_2025_SH_VCM_strain_sequences:
     output:
@@ -60,7 +72,7 @@ rule get_kikawa_2025_SH_VCM_gisaid_strains_by_lineage:
     output:
         data="data/gisaid-strains-kikawa-2025-SH-VCM-{lineage}.tsv",
     params:
-        lineage=lambda wildcards: {"h3n2": "H3N2", "h1n1pdm": "H1N1"}.get(wildcards.lineage)
+        lineage=lambda wildcards: LINEAGE_TO_BLOOM_LINEAGE.get(wildcards.lineage)
     shell:
         r"""
         tsv-select -H -f bloom_strain {input.data} \
@@ -213,6 +225,132 @@ rule fixup_metadata_source_values:
         r"""
         csvtk replace -t -f kikawa,contextual -p '(0|1)' -r 'present_$1' {input.metadata} > {output.metadata}
         """
+
+#
+# Prepare titers.
+#
+
+rule download_titers_metadata:
+    output:
+        data="data/titers_metadata.csv",
+    params:
+        titer_metadata_url=TITER_METADATA_URL,
+    shell:
+        r"""
+        curl -L -o {output.data:q} {params.titer_metadata_url:q}
+        """
+
+rule prepare_titers_metadata:
+    input:
+        data="data/titers_metadata.csv",
+    output:
+        data="data/titers_metadata_standardized.tsv",
+    shell:
+        r"""
+        csvtk rename -f serum -n serum_id {input.data} \
+            | csvtk cut -T -f serum_id,collection_date_numerical,age_years,sex > {output.data}
+        """
+
+rule download_titers:
+    output:
+        data="data/titers.csv",
+    params:
+        titer_data_url=TITER_DATA_URL,
+    shell:
+        r"""
+        curl -L -o {output.data:q} {params.titer_data_url:q}
+        """
+
+rule prepare_initial_standard_titers:
+    input:
+        data="data/titers.csv",
+    output:
+        data="data/initial_standard_titers.csv",
+    shell:
+        r"""
+        csvtk rename -f virus,serum,group -n virus_strain,serum_id,source {input.data} \
+            | csvtk cut -f virus_strain,serum_id,source,titer,titer_sem > {output.data}
+        """
+
+rule get_titers_by_lineage:
+    input:
+        data="data/initial_standard_titers.csv",
+    output:
+        data="data/{lineage}/initial_standard_titers.csv",
+    params:
+        lineage=lambda wildcards: LINEAGE_TO_BLOOM_LINEAGE.get(wildcards.lineage)
+    shell:
+        r"""
+        tsv-filter -H -d "," --str-in-fld "virus_strain:{params.lineage}" {input.data} > {output.data}
+        """
+
+rule get_strain_name_map:
+    input:
+        strain_name_mapping="data/strains-kikawa-2025-SH-VCM-{lineage}.tsv",
+    output:
+        strain_name_mapping="data/{lineage}/strain_name_map.tsv",
+    shell:
+        r"""
+        tsv-select -H -f bloom_strain,strain {input.strain_name_mapping} > {output.strain_name_mapping}
+        """
+
+rule rename_titer_strains:
+    input:
+        data="data/{lineage}/initial_standard_titers.csv",
+        strain_name_mapping="data/{lineage}/strain_name_map.tsv",
+    output:
+        data="data/{lineage}/renamed_standard_titers.csv",
+    shell:
+        r"""
+        csvtk replace \
+            -f "virus_strain" \
+            --keep-key \
+            --kv-file {input.strain_name_mapping} \
+            --pattern "(.+)" \
+            --replacement '{{kv}}' \
+            {input.data} > {output.data}
+        """
+
+rule get_reference_strain_per_serum_id_by_max_titer:
+    input:
+        data="data/{lineage}/renamed_standard_titers.csv",
+    output:
+        data="data/{lineage}/reference_strains.csv",
+    shell:
+        r"""
+        csvtk sort -k titer:nr {input.data} \
+            | csvtk uniq -f serum_id -n 1 \
+            | csvtk cut -f virus_strain,serum_id \
+            | csvtk rename -f virus_strain -n serum_strain > {output.data}
+        """
+
+# titers must be structured like: test, ref_virus, serum, src_id, titer
+rule merge_titers_and_reference_strains_by_serum_id:
+    input:
+        data="data/{lineage}/renamed_standard_titers.csv",
+        references="data/{lineage}/reference_strains.csv",
+    output:
+        data="data/{lineage}/standard_titers_without_metadata.tsv",
+    shell:
+        r"""
+        csvtk join -f serum_id {input.data} {input.references} \
+            | csvtk -T cut -f virus_strain,serum_strain,serum_id,source,titer,titer_sem > {output.data}
+        """
+
+rule merge_titers_and_metadata_by_serum_id:
+    input:
+        data="data/{lineage}/standard_titers_without_metadata.tsv",
+        metadata="data/titers_metadata_standardized.tsv",
+    output:
+        data="data/{lineage}/standard_titers.tsv",
+    shell:
+        r"""
+        csvtk join -t -f serum_id {input.data} {input.metadata} > {output.data}
+        """
+
+#
+# Infer time-scaled, annotated phylogenies.
+#
 
 rule get_nextclade_dataset:
     output:
@@ -500,4 +638,59 @@ rule export_tree_annotations:
             {output.tree_annotations} \
             --include-internal-nodes \
             --attributes {params.attributes}
+        """
+
+#
+# Export titer data to measurements panel.
+#
+
+rule calculate_log2_titer:
+    input:
+        titers="data/{lineage}/standard_titers.tsv",
+    output:
+        titers="data/{lineage}/log2_titers.tsv",
+    shell:
+        r"""
+        python3 scripts/calculate_log2_titer.py \
+            --titers {input.titers} \
+            --output {output.titers}
+        """
+
+rule export_measurements:
+    input:
+        titers="data/{lineage}/log2_titers.tsv",
+    output:
+        measurements="auspice/kikawa-seqneut-2025-VCM_{lineage}_measurements.json",
+    params:
+        key="Kikawa2025",
+        strain_column="virus_strain",
+        value_column="log2_titer",
+        title="log2 NT50s for human sera",
+        x_axis_label="log2 NT50",
+        thresholds=[0.0, 2.0],
+        grouping_columns=[
+            "serum_id",
+            "source",
+            "collection_date_numerical",
+            "age_years",
+            "sex",
+            "strain",
+        ],
+        measurements_display="raw",
+    shell:
+        r"""
+        augur measurements export \
+            --collection {input.titers} \
+            --key {params.key} \
+            --strain-column {params.strain_column} \
+            --value-column {params.value_column} \
+            --title {params.title:q} \
+            --x-axis-label {params.x_axis_label:q} \
+            --thresholds {params.thresholds} \
+            --grouping-column {params.grouping_columns:q} \
+            --measurements-display {params.measurements_display} \
+            --show-threshold \
+            --hide-overall-mean \
+            --minify-json \
+            --output-json {output.measurements} 2>&1 | tee {log}
         """
