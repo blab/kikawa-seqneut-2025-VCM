@@ -569,6 +569,20 @@ rule emerging_haplotypes:
             --output-node-data {output.node_data:q}
         """
 
+rule annotate_median_titer_per_tip:
+    input:
+        titers="data/{lineage}/standard_titers.tsv",
+        tree="builds/{lineage}/tree.nwk",
+    output:
+        titers="builds/{lineage}/titers.json",
+    shell:
+        r"""
+        python scripts/annotate_titer_summary_per_tip.py \
+            --titers {input.titers} \
+            --tree {input.tree} \
+            --output {output.titers}
+        """
+
 rule titers_sub:
     input:
         titers="data/{lineage}/standard_titers.tsv",
@@ -598,6 +612,7 @@ rule export:
             "builds/{lineage}/muts.json",
             "builds/{lineage}/subclades.json",
             "builds/{lineage}/emerging_haplotypes.json",
+            "builds/{lineage}/titers.json",
             "builds/{lineage}/titers_sub.json",
             "config/{lineage}/vaccine.json",
         ],

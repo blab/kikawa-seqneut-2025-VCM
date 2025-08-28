@@ -106,6 +106,90 @@
       ]
     },
     {
+      "key": "median_titer",
+      "title": "Median raw titer",
+      "type": "continuous",
+      "scale": [
+        [80, "#999999"],
+        [160, "#440154"],
+        [320, "#3b528b"],
+        [640, "#21918c"],
+        [1280, "#5ec962"],
+        [2560, "#fde725"]
+      ],
+      "legend": [
+        {"value": 80, "display": "<160", "bounds": [0, 159]},
+        {"value": 160, "display": "160-320", "bounds": [160, 320]},
+        {"value": 320, "display": "320-640", "bounds": [320, 640]},
+        {"value": 640, "display": "640-1280", "bounds": [640, 1280]},
+        {"value": 1280, "display": "1280-2560", "bounds": [1280, 2560]},
+        {"value": 2560, "display": ">=2560", "bounds": [2560, 51200]}
+      ]
+    },
+    {
+      "key": "median_titer_for_EPIHK",
+      "title": "Median raw titer for EPIHK",
+      "type": "continuous",
+      "scale": [
+        [80, "#999999"],
+        [160, "#440154"],
+        [320, "#3b528b"],
+        [640, "#21918c"],
+        [1280, "#5ec962"],
+        [2560, "#fde725"]
+      ],
+      "legend": [
+        {"value": 80, "display": "<160", "bounds": [0, 159]},
+        {"value": 160, "display": "160-320", "bounds": [160, 320]},
+        {"value": 320, "display": "320-640", "bounds": [320, 640]},
+        {"value": 640, "display": "640-1280", "bounds": [640, 1280]},
+        {"value": 1280, "display": "1280-2560", "bounds": [1280, 2560]},
+        {"value": 2560, "display": ">=2560", "bounds": [2560, 51200]}
+      ]
+    },
+    {
+      "key": "median_titer_for_SCH",
+      "title": "Median raw titer for SCH",
+      "type": "continuous",
+      "scale": [
+        [80, "#999999"],
+        [160, "#440154"],
+        [320, "#3b528b"],
+        [640, "#21918c"],
+        [1280, "#5ec962"],
+        [2560, "#fde725"]
+      ],
+      "legend": [
+        {"value": 80, "display": "<160", "bounds": [0, 159]},
+        {"value": 160, "display": "160-320", "bounds": [160, 320]},
+        {"value": 320, "display": "320-640", "bounds": [320, 640]},
+        {"value": 640, "display": "640-1280", "bounds": [640, 1280]},
+        {"value": 1280, "display": "1280-2560", "bounds": [1280, 2560]},
+        {"value": 2560, "display": ">=2560", "bounds": [2560, 51200]}
+      ]
+    },
+    {
+      "key": "median_titer_for_UWMC",
+      "title": "Median raw titer for UWMC",
+      "type": "continuous",
+      "scale": [
+        [80, "#999999"],
+        [161, "#440154"],
+        [321, "#3b528b"],
+        [641, "#21918c"],
+        [2341, "#5ec962"],
+        [2561, "#fde725"]
+      ],
+      "legend": [
+        {"value": 80, "display": "<160", "bounds": [0, 159]},
+        {"value": 161, "display": "160-320", "bounds": [160, 320]},
+        {"value": 321, "display": "320-640", "bounds": [320, 640]},
+        {"value": 641, "display": "640-1280", "bounds": [640, 1280]},
+        {"value": 1281, "display": "1280-2560", "bounds": [1280, 2560]},
+        {"value": 2561, "display": ">=2560", "bounds": [2560, 5120]}
+      ]
+    },
+    {
       "key": "cTiterSub",
       "title": "Antigenic advance (substitutions)",
       "type": "continuous"
