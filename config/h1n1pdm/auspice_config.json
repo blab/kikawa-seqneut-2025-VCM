@@ -110,6 +110,11 @@
       ]
     },
     {
+      "key": "cTiterSub",
+      "title": "Antigenic advance (substitutions)",
+      "type": "continuous"
+    },
+    {
       "key": "region",
       "title": "Region",
       "type": "categorical"
