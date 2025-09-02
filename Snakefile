@@ -11,9 +11,7 @@ LINEAGE_TO_BLOOM_LINEAGE = {
     "h3n2": "H3N2",
 }
 GENES = [
-    "SigPep",
     "HA1",
-    "HA2",
 ]
 
 NEXTCLADE_DATASET_BY_LINEAGE = {
