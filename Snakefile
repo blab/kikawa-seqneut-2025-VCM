@@ -612,7 +612,6 @@ rule export:
             "builds/{lineage}/emerging_haplotypes.json",
             "builds/{lineage}/titers.json",
             "builds/{lineage}/titers_sub.json",
-            "config/{lineage}/vaccine.json",
         ],
         auspice_config="config/{lineage}/auspice_config.json",
     output:
