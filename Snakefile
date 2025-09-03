@@ -11,7 +11,9 @@ LINEAGE_TO_BLOOM_LINEAGE = {
     "h3n2": "H3N2",
 }
 GENES = [
+    "SigPep",
     "HA1",
+    "HA2",
 ]
 
 NEXTCLADE_DATASET_BY_LINEAGE = {
@@ -515,6 +517,32 @@ rule ancestral:
             --inference {params.inference}
         """
 
+rule ancestral_ha1:
+    input:
+        tree="builds/{lineage}/tree.nwk",
+        alignment="builds/{lineage}/aligned.fasta",
+        translations=expand("builds/{{lineage}}/translations/{gene}.fasta", gene=GENES),
+        reference="nextclade_dataset/{lineage}_ha/reference.fasta",
+        annotation="nextclade_dataset/{lineage}_ha/genome_annotation.gff3",
+    output:
+        node_data="builds/{lineage}/muts_ha1.json",
+    params:
+        inference="joint",
+        genes=["HA1"],
+        input_translations="builds/{lineage}/translations/%GENE.fasta",
+    shell:
+        r"""
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --root-sequence {input.reference} \
+            --annotation {input.annotation} \
+            --genes {params.genes} \
+            --translations "{params.input_translations}" \
+            --output-node-data {output.node_data} \
+            --inference {params.inference}
+        """
+
 rule download_subclades:
     output:
         subclades="config/{lineage}/ha/subclades.tsv",
@@ -607,7 +635,7 @@ rule export:
         metadata="builds/{lineage}/metadata_with_nextclade.tsv",
         node_data=[
             "builds/{lineage}/branch_lengths.json",
-            "builds/{lineage}/muts.json",
+            "builds/{lineage}/muts_ha1.json",
             "builds/{lineage}/subclades.json",
             "builds/{lineage}/emerging_haplotypes.json",
             "builds/{lineage}/titers.json",
