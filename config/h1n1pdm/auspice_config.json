@@ -245,7 +245,7 @@
   ],
   "display_defaults": {
     "map_triplicate": true,
-    "color_by": "subclade",
+    "color_by": "median_titer",
     "branch_label": "Subclade",
     "tip_label": "gisaid_strain"
   },
