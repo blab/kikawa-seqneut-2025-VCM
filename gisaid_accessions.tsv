@@ -1,0 +1,934 @@
+subtype	gisaid_epi_isl	gisaid_strain	originating_lab	submitting_lab
+h1n1pdm	EPI_ISL_20144562	A/Qinghai-Chengbei/SWL1333/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144559	A/Hainan-Meilan/SWL1521/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144551	A/Guangdong-Maonan/SWL8211/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144548	A/Fujian-Yanping/SWL11259/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144547	A/Fujian-Yanping/SWL11259/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144541	A/Guangxi-Qingxiu/SWL11138/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144534	A/Guangxi-Qinnan/SWL11190/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144528	A/Hubei-Wujiagang/SWL1228/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144518	A/Shaanxi-Hanbin/SWL1522/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20144497	A/Qinghai-Ledou/SWL891/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20137322	A/Manitoba/RV04627-25/2025	Cadham Provincial Laboratory	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_20111722	A/France/PAC-RELAB-HCL025118775301/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h1n1pdm	EPI_ISL_20138892	A/Catalonia/NSAV198331896/2025	Hospital Universitari Arnau de Vilanova	Hospital Universitari Vall d'Hebron
+h1n1pdm	EPI_ISL_20138873	A/Catalonia/NSVH161522073/2025	Hospital Universitari Vall d'Hebron	Hospital Universitari Vall d'Hebron
+h1n1pdm	EPI_ISL_20138856	A/Bangkok/P2392/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20138848	A/Bangkok/P2350/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20138845	A/Bangkok/P2321/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20138843	A/Bangkok/P2277/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20138820	A/Bangkok/P2106/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20138809	A/Ranong/P2671/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20130960	A/South Australia/2521504942/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20130945	A/South Australia/2521104278/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20130924	A/South Australia/2522001028/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20130749	A/Cambodia/ SVH250321/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20130743	A/HIROSHIMA/42/2025	Center for Public Health and Environment, Hiroshima Prefectural Technology Research Institute	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20129883	A/Bhutan/01845/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20129882	A/Bhutan/01819/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20129845	A/Bhutan/00519/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20114220	A/Hong Kong/RFL-197/2025	The Chinese University of Hong Kong	Chinese University of Hong Kong
+h1n1pdm	EPI_ISL_20140340	A/South Australia/2522514410/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20140323	A/South Australia/2522409787/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20131643	A/Pennsylvania/507/2025	Pennsylvania Department of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20131596	A/Belgium/0057/2025	Sciensano, Viral Diseases Laboratory, National Influenza Center in Belgium	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20131464	A/Senegal/IPD-1958/2025	Institut Pasteur de Dakar	Institut Pasteur de Dakar
+h1n1pdm	EPI_ISL_20131337	A/Senegal/IPD-1915/2025	Institut Pasteur de Dakar	Institut Pasteur de Dakar
+h1n1pdm	EPI_ISL_20131058	A/Cambodia/ IAHC250254/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20131040	A/Catalonia/NSVH170154875/2025	Hospital Universitari Vall d'Hebron	Hospital Universitari Vall d'Hebron
+h1n1pdm	EPI_ISL_20131032	A/Catalonia/NSGT198331330/2025	Hospital Universitari Germans Trias i Pujol	Hospital Universitari Vall d'Hebron
+h1n1pdm	EPI_ISL_20131030	A/Cambodia/ IAHC250249/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20131023	A/South Australia/2519713406/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20115144	A/Hong Kong/1112/2025	Government Virus Unit	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20141994	A/Hong Kong/GIHSN-HKU-250827-005/2025	The University of Hong Kong	The University of Hong Kong
+h1n1pdm	EPI_ISL_20141990	A/Hong Kong/GIHSN-HKU-250827-001/2025	The University of Hong Kong	The University of Hong Kong
+h1n1pdm	EPI_ISL_20141845	A/Saint-Petersburg/RII-327/2025	WHO National Influenza Centre Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20141820	A/Saint-Petersburg/RII-MH248590S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20141819	A/Saint-Petersburg/RII-MH248586S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20141627	A/Guatemala/P000034/2025	Fundación para la Salud Integral de los Guatemaltecos (FUNSALUD)	Fundación para la Salud Integral de los Guatemaltecos
+h1n1pdm	EPI_ISL_20141198	A/Argentina/1584/2025	Instituto Nacional de Enfermedades Infecciosas Dr. C.G. Malbrán	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20141171	A/Cote D'Ivoire/1812/2025	Pasteur Institut of Côte d'Ivoire	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20141112	A/Burkina Faso/2957/2025	IRSS	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20141070	A/Uruguay/663/2025	Departamento de Laboratorio de Salud Pública (DLSP)	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20141062	A/Argentina/1651/2025	Instituto Nacional de Enfermedades Infecciosas Dr. C.G. Malbrán	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20133607	A/Netherlands/01754/2025	Erasmus Medical Center	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20133515	A/Uruguay/1234/2025	National Influenza Center, Ministry of Health	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20133513	A/Uruguay/1181/2025	National Influenza Center, Ministry of Health	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20133512	A/Uruguay/1165/2025	National Influenza Center, Ministry of Health	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20133509	A/Uruguay/1004/2025	National Influenza Center, Ministry of Health	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20125573	A/Indonesia/BIOKES-SMHM172/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h1n1pdm	EPI_ISL_20125558	A/Indonesia/BIOKES-IMLG941/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h1n1pdm	EPI_ISL_20125498	A/Paraguay/910274/2025	Central Laboratory of Public Health	Laboratorio Central de Salud Publica
+h1n1pdm	EPI_ISL_20125452	A/India/PUD-NIV25-1171/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20125451	A/India/PUD-NIV25-1170/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20125450	A/India/PUD-NIV25-1169/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20125447	A/India/JAI-NIV25-1116/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20124423	A/Hong Kong/RFL-212/2025	The Chinese University of Hong Kong	Chinese University of Hong Kong
+h1n1pdm	EPI_ISL_20135288	A/Cote d'Ivoire/2054/2025	Pasteur Institut of Côte d'Ivoire	Institut Pasteur de Côte d'Ivoire
+h1n1pdm	EPI_ISL_20127617	A/Norway/08127/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h1n1pdm	EPI_ISL_20127608	A/Norway/08073/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h1n1pdm	EPI_ISL_20126981	A/Sanarate/FLU-288/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h1n1pdm	EPI_ISL_20126958	A/Zacapa/FLU-265/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h1n1pdm	EPI_ISL_20126931	A/Guatemala/FLU-233/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h1n1pdm	EPI_ISL_20127369	A/Cambodia/ INPH250216/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20097469	A/Hong Kong/GIHSN-HKU-250801-004/2025	The University of Hong Kong	The University of Hong Kong
+h1n1pdm	EPI_ISL_20097466	A/Hong Kong/GIHSN-HKU-250801-001/2025	The University of Hong Kong	The University of Hong Kong
+h1n1pdm	EPI_ISL_20099476	A/Shanghai-Xuhui/SWL1598/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20099466	A/Heilongjiang-Yimei/SWL1558/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20098087	A/ABUDHABI/UAE/0013621/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Purehealth Group Company
+h1n1pdm	EPI_ISL_20097265	A/AKITA/13/2025	Akita Research Center for Public Health and Environment	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20097259	A/YOKOHAMA/50/2025	Yokohama City Institute of Public Health.	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20099756	A/Singapore/GP0398/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_20099755	A/Singapore/GP0378/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_20099699	A/Hubei-Qiaokou/SWL1398/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20099666	A/Shanxi-Shuocheng/SWL842/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20099584	A/Qinghai-Haiyan/SWL1279/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_20102994	A/SAO PAULO/CEVI_2500195/2025	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_20102960	A/SAO PAULO/CEVI_2500719/2025	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_20101172	A/Galicia/GA-CHUAC-439/2025	A Coruna University Hospital Complex (CHUAC)	Hospital Universitario de A Coruña
+h1n1pdm	EPI_ISL_20110972	A/Acre/029940-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_20110904	A/Para/027973-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_20103070	A/SAO PAULO/CEVI_2500243/2025	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_20103119	A/Colorado/98/2025	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20103103	A/Massachusetts/91/2025	Massachusetts Department of Public Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20088834	A/SALAMANCA/135/2025	Valladolid National Influenza Centre	Valladolid National Influenza Centre
+h1n1pdm	EPI_ISL_20091207	A/South Australia/87/2025	Institute of Medical and Veterinary Science (IMVS)	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20090050	A/Madagascar/00987/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h1n1pdm	EPI_ISL_20090850	A/Saint-Petersburg/RII-MH244902S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20091408	A/South Australia/2505710186/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20091434	A/South Australia/2518415107/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20090950	A/Victoria/2508014811/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20090991	A/South Australia/2508305862/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20091509	A/South Australia/2518908693/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20090882	A/Sochi/RII-MH247133S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20090881	A/Saint-Petersburg/RII-MH247029S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_20091125	A/Singapore/NUH0584/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_20092445	A/Philippines/ILI25-0566/2025	Research Institute for Tropical Medicine, Virology Department	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20078964	A/South Korea/16142/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h1n1pdm	EPI_ISL_20079477	A/South Australia/2516100843/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20080411	A/Niger/VR1099_HNABD/2025	Centre de Recherche Medicale et Sanitaire (CERMES)	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20079449	A/South Australia/2517302418/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_20080790	A/Alaska/47/2025	Alaska State Virology Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20080813	A/El Salvador/987/2025	Contiguo a Hospital Rosales	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20080800	A/Iowa/91/2025	Iowa State Hygienic Laboratory	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_20070534	A/Victoria/496/2025	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20070562	A/Victoria/905/2025	Austin Health	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20070620	A/Victoria/693/2025	Royal Melbourne Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20071400	A/Victoria/460/2025	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20070456	A/Darwin/874/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_20070748	A/Belgium/S6141/2025	Sciensano, Viral Diseases Laboratory, National Influenza Center in Belgium	Sciensano
+h1n1pdm	EPI_ISL_20072840	A/ENG/83/2025	UK Health Security Agency - Colindale	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_20072197	A/Ireland/00009561/2025	UCD National Virus Reference Laboratory	UCD National Virus Reference Laboratory
+h1n1pdm	EPI_ISL_20074379	A/Kenya/MSA09788/Human/2025	National Influenza Center - Kenya	National Public Health Laboratory
+h1n1pdm	EPI_ISL_20075621	A/South Africa/PATH-CERI-C068653/2025	PathCare	Center for Epidemic Response and Innovation (CERI)
+h1n1pdm	EPI_ISL_20075868	A/India/BEN_NIV25-124/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20075865	A/India/ DEL_NIV25-255/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_20074658	A/Denmark/2853/2025	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_20074671	A/Denmark/2997/2025	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_20074706	A/Denmark/2995/2025	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_20066037	A/SAPPORO/9/2025	Sapporo City Institute of Public Health	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20066036	A/SAPPORO/7/2025	Sapporo City Institute of Public Health	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20066624	A/Ghana/ARI-25-0794/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_20066613	A/Ghana/FS-25-3995/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_20066609	A/Ghana/FS-25-4397/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_20066407	A/Ghana/FS-25-3256/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_20054862	A/SHIMANE/61/2025	Shimane Prefectural Institute of Public Health and Environmental Science	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20054851	A/NAGANO/2129/2025	Nagano Environmental Conservasion Research Institute	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_20054714	A/Queensland/IN001580/2025	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_20054707	A/Queensland/IN001573/2025	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_20054613	A/Burkina Faso/HOSCO 329/2024	Laboratoire National de Référence Grippes(LNR-G)/Institut de Recherche en Sciences de la Santé	Institut de Recherche en Sciences de la Santé (IRSS/CNRST)
+h1n1pdm	EPI_ISL_20054445	A/Bangkok/P1525/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_20054191	A/Distrito Federal/2524590901/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h1n1pdm	EPI_ISL_20055713	A/Ghana/FS-25-2663/Ghana	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_20058521	A/Netherlands/10886/2025	National Institute for Public Health and the Environment (RIVM)	National Institute for Public Health and the Environment (RIVM)
+h1n1pdm	EPI_ISL_20059548	A/Roraima/019358-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19997352	A/Cambodia/ CCH250082/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20050391	A/Queensland/IN001365/2025	Queensland Medical Laboratories	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_20050383	A/Cambodia/ INPH250184/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20050588	A/Cambodia/ ISVH250022/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_20050486	A/Queensland/IN001392/2025	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_19907474	A/Madagascar/01951/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h1n1pdm	EPI_ISL_19907470	A/Madagascar/01482/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h1n1pdm	EPI_ISL_19907014	A/TOKYO/EIS11-851/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_19907013	A/TOKYO/EIS11-847/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_19907008	A/TOKYO/EIS11-826/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_19907007	A/TOKYO/EIS11-814/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h1n1pdm	EPI_ISL_19910105	A/Kenya/NYR11802/Human/2025	National Influenza Center - Kenya	National Public Health Laboratory
+h1n1pdm	EPI_ISL_19908980	A/France/ARA-RELAB-HCL025093302901/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h1n1pdm	EPI_ISL_19908809	A/Amazonas/018293-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19908549	A/PARANA/CEVI_24002220/2024	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_19912403	A/Maine/23/2025	Maine Health and Environmental Testing Laboratory	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19900393	A/Nizhny Novgorod/RII-MH239699S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900353	A/Surgut/RII-MH237082S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900296	A/Sernur/RII-MH234921S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900255	A/Kola/RII-MH234534S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19901360	A/Ohio/233/2025	University Hospitals Cleveland Medical Center	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19900457	A/Saint-Petersburg/RII-24-3043S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900434	A/Bor/RII-MH240316S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900150	A/Saint-Petersburg/RII-95/2025	WHO National Influenza Centre Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19900092	A/Yekaterinburg/34/2025	"FBUZ ""Center of hygiene and epidemiology"" in Sverdlovsk oblast"	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19902126	A/Denmark/2934/2025	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_19894169	A/Malaysia/MKAI_CL29892/2025	Pejabat Kesihatan Daerah Bandar Baharu	Public Health Laboratory Ipoh
+h1n1pdm	EPI_ISL_19894352	A/Ukraine/4394/2025	Public Health Center, Ministry of Health Ukraine	Public Health Center, Ministry of Health Ukraine
+h1n1pdm	EPI_ISL_19896248	A/Indonesia/BIOKES-S-RHS749/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h1n1pdm	EPI_ISL_19897547	A/Zambia/10-NIC-103/2025	University Teaching Hospital, MoH Zambia	National Influenza Center, Zambia
+h1n1pdm	EPI_ISL_19898113	A/Changsha/175/2025	Changsha Disease Prevention and Control Center	Changsha Disease Prevention and Control Center
+h1n1pdm	EPI_ISL_19893261	A/Virginia/GKISBBBF45763/2025	Concentric by Ginkgo Bioworks	
+h1n1pdm	EPI_ISL_19885839	A/Ghana/FS-25-2174/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19889616	A/Norway/06612/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h1n1pdm	EPI_ISL_19889597	A/Norway/06469/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h1n1pdm	EPI_ISL_19882560	A/Rio Grande do Sul/1151/2025	LACEN/RS - Laboratório Central de Saúde Pública do Rio Grande do Sul	Oswaldo Cruz Foundation
+h1n1pdm	EPI_ISL_19882476	A/British Columbia/RV04083-25/2025	B.C. Centre for Disease Control	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19878805	A/Austria/1801480/2025	Department of Virology, Medical University Vienna	Medical University Vienna
+h1n1pdm	EPI_ISL_19880507	A/Bahrain/1740/2024	Ministry of Health Bahrain	National Influenza Center, Bahrain
+h1n1pdm	EPI_ISL_19879563	A/Victoria/389/2025	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19881563	A/Murmansk/RII-MH234725S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19874803	A/Vietnam/PF125102/2025	Bach Mai Hospital	Bach Mai Hospital
+h1n1pdm	EPI_ISL_19876493	A/Antofagasta/20024/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h1n1pdm	EPI_ISL_19876360	A/South Africa/PATH-CERI-C066585/2025	National Health Laboratory Service, Stellenbosch University	Center for Epidemic Response and Innovation (CERI)
+h1n1pdm	EPI_ISL_19875439	A/Cambodia/ IAHC250126/2025	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_19875007	A/Denmark/2595/2025	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_19885232	A/California/LACPHL-INF01974/2025	Los Angeles County Public Health Laboratories, Lab Microbial Pathogen Submission Group	
+h1n1pdm	EPI_ISL_19864509	A/Delaware/66/2025	Delaware Public Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19864501	A/Idaho/41/2025	State of Idaho Bureau of Laboratories	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19866506	A/Ireland/00000840/2025	UCD National Virus Reference Laboratory	UCD National Virus Reference Laboratory
+h1n1pdm	EPI_ISL_19868049	A/Nevada/96/2025	Nevada State Health Laboratory	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19867705	A/KENYA/NAK-13247/Human/2025	National Influenza Center - Kenya	National Public Health Laboratory
+h1n1pdm	EPI_ISL_19871347	A/Peru/CAJ-INS-501/2025	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h1n1pdm	EPI_ISL_19871235	A/Peru/UCA-INS-454/2025	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h1n1pdm	EPI_ISL_19860386	A/Finland/664/2025	Nordlab Oulu	Finnish Institute for Health and Welfare, THL
+h1n1pdm	EPI_ISL_19863658	A/Ghana/FS-25-1536/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19855840	A/Saint-Petersburg/RII-MH232458S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19855829	A/Malaya Vishera/RII-MH232005S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19855261	A/TOKYO/EIS11-688/2025	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19855239	A/Mato Grosso do Sul/795/2025	LACEN/MS Laboratório Central de Saúde Pública de Mato Grosso do Sul	Fundação Oswaldo Cruz (Fiocruz)
+h1n1pdm	EPI_ISL_19856559	A/Canberra/667/2024	Canberra Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19828528	A/Wisconsin/NIRC-IS-1179/2025	Wisconsin State Laboratory of Hygiene	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19829746	A/Queensland/IN001090/2025	QLD, Sullivan Nicolaides Pathology	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_19832866	A/Michigan/UM-10062271824/2025	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h1n1pdm	EPI_ISL_19834944	A/Alaska/15750/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h1n1pdm	EPI_ISL_19837413	A/Vi?a del Mar/9736/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h1n1pdm	EPI_ISL_19844114	A/TOKYO/EIS11-600/2025	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19844021	A/Victoria/229/2025	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19843962	A/Darwin/358/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19849186	A/Yekaterinburg/07/2025	"FBUZ ""Center of hygiene and epidemiology"" in Sverdlovsk oblast"	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19847580	A/Surat Thani/F1191/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19847574	A/Chiang Rai/F1106/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19844635	A/Para/011861-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19817344	A/Para/010206-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19817320	A/Pernambuco/009902-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19817057	A/Tunisia/945/2025	National Influenza Centre-Tunis, Unit Virology, Microbiology Laboratory, Charles Nicolle's Hospital	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19852889	A/Bangkok/P740/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19821043	A/NAGANO-C/16/2025	Nagano City Health Center	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19854778	A/California/NIRC-IS-1059/2025	California Department of Health Services	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19824050	A/Ghana/FS-25-1021/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19823956	A/Ghana/FS-25-0964/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19823750	A/Ghana/FS-25-0868/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19824151	A/Santa Catarina/727/2025	LACEN/SC	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19824162	A/Espirito Santo/675/2025	LACEN/ES - Laboratório Central de Saúde Pública do Espírito Santo	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19794579	A/Gyeonggi/422/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h1n1pdm	EPI_ISL_19794574	A/Jeju/412/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h1n1pdm	EPI_ISL_19762377	A/Ghana/FS-25-0125/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19762375	A/Ghana/FS-25-0040/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19762352	A/Ghana/FS-25-0018/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19762349	A/Ghana/ARI-24-1972/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19764242	A/Taiwan/S25704/2024	Taiwan Centers for Disease Control	Taiwan Centers for Disease Control
+h1n1pdm	EPI_ISL_19764183	A/Taiwan/C21469/2024	Taiwan Centers for Disease Control	Taiwan Centers for Disease Control
+h1n1pdm	EPI_ISL_19799355	A/Malaysia/MKAI_CL16977/2025	Klinik Kesihatan Jelapang	Public Health Laboratory Ipoh
+h1n1pdm	EPI_ISL_19800447	A/Malaysia/MKAI_CL54134/2024	Klinik Kesihatan Lintang,  ,	Public Health Laboratory Ipoh
+h1n1pdm	EPI_ISL_19799497	A/Hong Kong/GIHSN-HKU-250324-005/2025	The University of Hong Kong	The University of Hong Kong
+h1n1pdm	EPI_ISL_19767479	A/Togo/1429/2024	Institute National D'Hygiene	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19767461	A/Morocco/578/2024	Institut National d'Hygiène	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19767457	A/Morocco/450/2024	Institut National d'Hygiène	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19767410	A/South Carolina/15386/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h1n1pdm	EPI_ISL_19802842	A/Chungnam/622/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h1n1pdm	EPI_ISL_19802824	A/Incheon/614/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h1n1pdm	EPI_ISL_19802777	A/TOKYO/EIS11-400/2025	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19802754	A/TOKYO/EIS11-340/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19805012	A/India/JAI-NIV24_3100/2024	National Institute of Virology	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19806108	A/Bangkok/P394/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19806025	A/Phra Nakhon Si Ayutthaya/F891/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19805892	A/SWITZERLAND/UN-SNRCI-HUG-47236068/2025	Swiss National Reference Centre for Influenza	University of Geneva
+h1n1pdm	EPI_ISL_19805192	A/Guam/5828/2025	Guam Department of Public Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19774249	A/Cameroon/11991/2024	Centre Pasteur du Cameroun	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19773895	A/Indonesia/BIOKES-IBPP730/2024	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h1n1pdm	EPI_ISL_19810257	A/GIFU/250/2024	Gifu Prefectural Institute of Health and Environmental Sciences	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19778371	A/TOKYO/EIS11-291/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19811853	A/Ulaanbaatar/3824/2024	National Center for Communicable Diseases	National Center for Communicable Diseases
+h1n1pdm	EPI_ISL_19779369	A/France/ARA-HCL025033117701/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h1n1pdm	EPI_ISL_19778285	A/Malaysia/IMR-SARI0517/2025	Hospital Wanita Dan Kanak-Kanak Sabah	Institute for Medical Research
+h1n1pdm	EPI_ISL_19778234	A/Sri Lanka/12/2025	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19778232	A/Sri Lanka/116/2024	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19780472	A/Uganda/UVRI_KBK3583_2024	Koboko Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19780467	A/Uganda/UVRI_FTL2665_2024	FortPortal Regional Referral Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19814755	A/Oman/CPHL_725753/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h1n1pdm	EPI_ISL_19813001	A/Victoria/239/2025	Royal Chidrens Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19780795	A/Vietnam/PF124503/2025	Bach Mai Hospital	Bach Mai Hospital
+h1n1pdm	EPI_ISL_19782941	A/French Guiana/070/2025	Centre Hospitalier de l'Ouest Guyanais	Institut Pasteur de la Guyane
+h1n1pdm	EPI_ISL_19787754	A/Parana/456/2025	Laboratório Central do Estado do Paraná - LACEN/PR	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19786877	A/Sao Paulo/14183/2024	University of São Paulo	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19791082	A/Colorado/ISC-1278/2025	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19791544	A/Bangkok/P329/2025	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19791499	A/Catalonia/NSVC770322442/2025	Hospital Verge de la Cinta	Hospital Universitari Vall d'Hebron
+h1n1pdm	EPI_ISL_19759090	A/Sydney/1356/2024	WHO Collaborating Centre for Reference and Research on Influenza	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726973	A/Maldives/2200/2024	Ministry of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726969	A/Maldives/2395/2024	Ministry of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726959	A/Maldives/2215/2024	Ministry of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726949	A/Maldives/2271/2024	Ministry of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726943	A/Maldives/2357/2024	Ministry of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726827	A/Colorado/260/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19726706	A/Saskatchewan/SKFLU414016/2025	Roy Romanow Provincial Laboratory	Roy Romanow Provincial Laboratory
+h1n1pdm	EPI_ISL_19726625	A/Ghana/6341/2024	Noguchi Memorial Institute for Medical Research (NMIMR)	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19731827	A/France/HDF-RELAB-IPP01311/2025	Institut Pasteur	Institut Pasteur Paris
+h1n1pdm	EPI_ISL_19729352	A/Galicia/SCQ/117006/2025	COMPLEXO UNIVERSITARIO DE SANTIAGO DE COMPOSTELA (CHUS)	Health Research Institute of Santiago de Compostela (IDIS)
+h1n1pdm	EPI_ISL_19731473	A/Queensland/IN000896/2024	Mater Pathology	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_19734827	A/Canada/ABPHL-1540/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19734746	A/Canada/ABPHL-1465/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19734737	A/Canada/ABPHL-1456/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19734674	A/Canada/ABPHL-1392/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19734644	A/Canada/ABPHL-1362/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19742178	A/MINAS GERAIS/CEVI_24002314/2024	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_19742139	A/MINAS GERAIS/CEVI_24002141/2024	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_19742135	A/MINAS GERAIS/CEVI_24002137/2024	Instituto Butantan	Instituto Butantan
+h1n1pdm	EPI_ISL_19741754	A/Sri Lanka/11/2025	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19709470	A/Madrid/2430/2024	Servicio de Microbiología Hospital Universitario La Paz	Instituto de Salud Carlos III
+h1n1pdm	EPI_ISL_19709430	A/North America/Canada/New Brunswick/NBPHLFLU06K-MM00010R-r1/2024	Hôpital Georges L. Dumont	Hôpital Georges L.Dumont
+h1n1pdm	EPI_ISL_19709181	A/ABUDHABI/UAE/0015664/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h1n1pdm	EPI_ISL_19709177	A/ABUDHABI/UAE/0015586/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h1n1pdm	EPI_ISL_19711416	A/Darwin/1754/2024	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19711361	A/Darwin/1625/2024	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19711994	A/KANAGAWA/AC2406/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19711761	A/UTSUNOMIYA/56/2024	Utsunomiya City Institute of Public Health and Environment Science	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19711756	A/WAKAYAMA/30/2024	Wakayama Prefectural Research Center of Environment and Public Health	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19711569	A/Victoria/3584/2024	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19711524	A/Sri Lanka/9/2025	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19712005	A/OSAKA/48/2024	Osaka Prefectural Institute of Public Health	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19746063	A/Florida/13/2025	Florida Department of Health-Tampa	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19745999	A/Guam/5620/2025	Guam Department of Public Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19715019	A/Singapore/NUH1243/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19715015	A/Singapore/GP17458/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19714968	A/Singapore/GP14982/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19714831	A/Tasmania/868/2024	Hobart Pathology	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19751135	A/Tashkent/NRL-3824/2024	CHILDREN`S CLINICAL HOSPITAL № 1 OF TASHKENT CITY	Committee Sanitary Epidemiological Walfare and Public Health
+h1n1pdm	EPI_ISL_19750450	A/Algeria/16823/2024	Institut Pasteur d'Algerie	Institut Pasteur d'Algérie
+h1n1pdm	EPI_ISL_19751973	A/France/BRE-IPP02020/2025	Institut Pasteur	Institut Pasteur
+h1n1pdm	EPI_ISL_19718751	A/Hunan-Louxin/SWL144/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19718744	A/Hainan-Danzhou/SWL134/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19753415	A/South Australia/2436513024/2024	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_19753322	A/South Australia/2500407253/2025	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_19753574	A/Western Australia/2435412941/2024	SA Pathology	SA Pathology Laboratory
+h1n1pdm	EPI_ISL_19756920	A/YOKOSUKA/5/2024	Yokosuka Institute of Public Health	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19724060	A/Wisconsin/NIRC-IS-1084/2024	Wisconsin State Laboratory of Hygiene	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19723395	A/Israel/R18227/2024	Central Virology Laboratory Israel (NIC)	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19724441	A/Massachusetts/ISC-1239/2025	Massachusetts Department of Public Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19724421	A/Texas/ISC-1180/2025	Texas Department of State Health Services-Laboratory Services	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19628333	A/Massachusetts/77/2024	Massachusetts Department of Public Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19694920	A/Pakistan/NIC/ICT/300/2025	National Institute of Health	National Institute of Health Pakistan
+h1n1pdm	EPI_ISL_19697518	A/Saint-Petersburg/RII-MH224334S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19631367	A/Oman/CPHL_52432986/2024	Central Public Health Laboratories Oman	Central Public Health Laboratories Oman
+h1n1pdm	EPI_ISL_19697502	A/Saint-Petersburg/RII-MH224576S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19664852	A/Queensland/IN000754/2024	QLD, Sullivan Nicolaides Pathology	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_19664822	A/Queensland/IN000802/2024	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h1n1pdm	EPI_ISL_19664753	A/Malaysia/IMR-SARI3104/2024	Hospital Sultanah Aminah	Institute for Medical Research
+h1n1pdm	EPI_ISL_19599421	A/Zhejiang-Tongxiang/SWL2998/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19599420	A/Zhejiang-Kecheng/SWL1834/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19599417	A/Zhejiang-Haining/SWL2734/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19599363	A/Liaoning-Huanggu/SWL11171/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19599361	A/Guangdong-Huicheng/SWL1883/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19633751	A/NAGANO/2386/2024	Nagano Environmental Conservasion Research Institute	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19633750	A/MIYAZAKI/28/2024	Miyazaki Prefectural Institute for Public Health and Environment	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19667951	A/Bangladesh/1241003010/2024	icddr,b International Centre for Diarrhoeal Disease Research, Bangladesh	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19667949	A/Bangladesh/8023/2024	icddr,b International Centre for Diarrhoeal Disease Research, Bangladesh	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19700774	A/Victoria/13/2025	Royal Chidrens Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19668124	A/Philippines/1792/2024	Research Institute for Tropical Medicine, Virology Department	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19668090	A/Bangladesh/3144/2024	Institute of Epidemiology Disease Control and Research (IEDCR) & Bangladesh National Influenza Centre (NIC)	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19668029	A/New York/214/2024	New York State Department of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19667987	A/Bangladesh/0016/2024	icddr,b International Centre for Diarrhoeal Disease Research, Bangladesh	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19667973	A/Bangladesh/3005/2024	icddr,b International Centre for Diarrhoeal Disease Research, Bangladesh	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19667553	A/England/5120974/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19668600	A/Philippines/2532/2024	Research Institute for Tropical Medicine, Virology Department	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19603123	A/Talca/71491/2024	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h1n1pdm	EPI_ISL_19603119	A/Linares/69192/2024	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h1n1pdm	EPI_ISL_19602988	A/Ufa/CRIE/53/2024	Center of Hygiene and Epidemiology in Republic of Bashkortostan	Central Research Institute of Epidemiology
+h1n1pdm	EPI_ISL_19603496	A/California/LACPHL-INF00672/2024	Los Angeles County Public Health Laboratories, Lab Microbial Pathogen Submission Group	
+h1n1pdm	EPI_ISL_19702756	A/Espirito Santo/13011/2024	LACEN/ES - Laboratório Central de Saúde Pública do Espírito Santo	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19704582	A/Laos/00820-2341/2024	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)	MORU Tropical Health Network
+h1n1pdm	EPI_ISL_19672765	A/Brazil/SP-LEIAL4036/2024	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h1n1pdm	EPI_ISL_19674927	A/Hunan-Jishou/SWL12035/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19641439	A/Ghana/FS-24-6342/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19608543	A/Netherlands/01895/2024	Erasmus Medical Center	Erasmus Medical Center
+h1n1pdm	EPI_ISL_19676549	A/Darwin/1612/2024	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19676543	A/Tasmania/860/2024	Royal Hobart Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19675023	A/Hainan-Dingan/SWL1954/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19675017	A/Henan-Weibin/SWL1515/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19675000	A/Gansu-Chengguan/SWL11408/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19674973	A/Yunnan-Hekouyaozuzizhi/SWL1122/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19674963	A/Hainan-Danzhou/SWL11392/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19674697	A/ABUDHABI/UAE/0014069/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h1n1pdm	EPI_ISL_19674695	A/ABUDHABI/UAE/0013978/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h1n1pdm	EPI_ISL_19642842	A/India/Hub-NIV24_3091/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_19642827	A/India/Amr-NIV24_2367/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h1n1pdm	EPI_ISL_19642611	A/Seoul/4081/2024	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h1n1pdm	EPI_ISL_19676854	A/Laos/F2357/2024	National Center for Laboratory and Epidemiology	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19644532	A/Ireland/00087411/2024	UCD National Virus Reference Laboratory	UCD National Virus Reference Laboratory
+h1n1pdm	EPI_ISL_19644488	A/Ireland/00080865/2024	UCD National Virus Reference Laboratory	UCD National Virus Reference Laboratory
+h1n1pdm	EPI_ISL_19644089	A/Qatar/82042/2024	Supreme Health Council	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19644070	A/Qatar/83703/2024	Supreme Health Council	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19644067	A/Qatar/84651/2024	Supreme Health Council	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19679164	A/France/ARA-RELAB-HCL025000515301/2024	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h1n1pdm	EPI_ISL_19678782	A/Taiwan/NT1812a/2024	Taiwan Centers for Disease Control	
+h1n1pdm	EPI_ISL_19678629	A/Pakistan/3764/2024	National Institute of Health	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19644977	A/Ghana/FS-24-7696/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h1n1pdm	EPI_ISL_19614102	A/Peru/LIM-UPCH-4729/2024	Instituto de Medicine Tropical Alexander von Humboldt - UPCH	Universidad Peruana Cayetano Heredia
+h1n1pdm	EPI_ISL_19614101	A/Peru/LIM-UPCH-4721/2024	Instituto de Medicine Tropical Alexander von Humboldt - UPCH	Universidad Peruana Cayetano Heredia
+h1n1pdm	EPI_ISL_19647187	A/New Jersey/62/2024	New Jersey Department of Health & Senior Services	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19647160	A/Bahrain/3177/2024	Ministry of Health Bahrain	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19647145	A/La Serena/91169/2024	Instituto de Salud Publica de Chile	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19647131	A/La Serena/90885/2024	Instituto de Salud Publica de Chile	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19680962	A/England/5140163/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19651307	A/Para/047372-IEC/2024	Evandro Chagas Institute	Evandro Chagas Institute
+h1n1pdm	EPI_ISL_19685697	A/HongKong/2853/2024	Government Virus Unit	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19652815	A/Linares/82919/2024	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h1n1pdm	EPI_ISL_19687844	A/CoteD'Ivoire/4611/2024	Pasteur Institut of Côte d'Ivoire	Crick Worldwide Influenza Centre
+h1n1pdm	EPI_ISL_19686548	A/TOKYO/EIS11-200/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19689139	A/Malaysia/TIDREC_KBR-AUFI908/2024	Tropical Infectious Diseases Research and Education Centre (TIDREC), Universiti Malaya	University of Malaya
+h1n1pdm	EPI_ISL_19690412	A/Uganda/UVRI_NISS-UV-0759_2024	Arua Regional Referral Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19690408	A/Uganda/UVRI_MKN2918_2024	Mukono General Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19690365	A/Uganda/UVRI_KBK2920_2024	Koboko Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19690179	A/Uganda/UVRI_MKN2913_2024	Mukono General Hospital	Uganda Virus Research Institute (NIC)
+h1n1pdm	EPI_ISL_19689587	A/Saint-Petersburg/RII-MH222583S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h1n1pdm	EPI_ISL_19658020	A/Rio Grande do Sul/12735/2024	LACEN/RS - Laboratório Central de Saúde Pública do Rio Grande do Sul	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19657994	A/Minas Gerais/12118/2024	FUNED MG	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19692440	A/Hong Kong/93/2025	Hong Kong Department of Health	Hong Kong Department of Health
+h1n1pdm	EPI_ISL_19692365	A/Singapore/NUH1262/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19692377	A/Singapore/KK2247/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19692394	A/Singapore/EN0514/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h1n1pdm	EPI_ISL_19530526	A/Madagascar/02654/2024	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h1n1pdm	EPI_ISL_19530489	A/Madagascar/02930/2024	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h1n1pdm	EPI_ISL_19565838	A/British Columbia/RV04867/2024	B.C. Centre for Disease Control	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19533362	A/British_Columbia/PHL-1946/2024	B.C. Centre for Disease Control	Public Health Agency of Canada
+h1n1pdm	EPI_ISL_19500334	A/Chiang Rai/F1594/2024	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19566298	A/TOKYO/EIS11-052/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19533430	A/British_Columbia/PHL-1938/2024	B.C. Centre for Disease Control	Public Health Agency of Canada
+h1n1pdm	EPI_ISL_19567703	A/Nakhon Phanom/F2539/2024	Thai National Influenza Center	Thai National Influenza Center
+h1n1pdm	EPI_ISL_19504957	A/TOKYO/EIS10-846/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19504945	A/TOKYO/EIS10-750/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19502302	A/England/3940091/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19471854	A/Tasmania/692/2024	Hobart Pathology	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19471836	A/Darwin/1264/2024	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19437635	A/TOKYO/EIS10-571/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19437515	A/Hong Kong/2515/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h1n1pdm	EPI_ISL_19437513	A/Hong Kong/2513/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h1n1pdm	EPI_ISL_19472405	A/England/3900826/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19471932	A/Victoria/2255/2024	Royal Melbourne Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19539448	A/Bhutan/1671/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19539446	A/Bhutan/1618/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19539347	A/Fujairah/5918/2024	Shaikh Khalifa Medical City	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19539642	A/TOKYO/EIS10-927/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19539477	A/Bhutan/1632/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19539472	A/Bhutan/1628/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19574609	A/Townsville/36/2024	Pathology Queensland Cairns laboratory	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19574582	A/Perth/1133/2024	Pathwest QE II Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19574285	A/Oman/CPHL_52422230/2024	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h1n1pdm	EPI_ISL_19574284	A/Oman/CPHL_52422236/2024	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h1n1pdm	EPI_ISL_19575748	A/Cardiff/9891/2024	Public Health Wales Microbiology Cardiff	Public Health Wales Microbiology Cardiff
+h1n1pdm	EPI_ISL_19545335	A/Tocantins/IAL/520565096/2024	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h1n1pdm	EPI_ISL_19544246	A/England/4240158/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19512083	A/Manitoba/RV04009/2024	Cadham Provincial Laboratory	Public Health Agency of Canada (PHAC)
+h1n1pdm	EPI_ISL_19478194	A/French Polynesia/HCL024125857201/2024	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h1n1pdm	EPI_ISL_19446620	A/HANOI/PF124400/2024	Bach Mai Hospital	Bach Mai Hospital
+h1n1pdm	EPI_ISL_19446615	A/HANOI/PF324329/2024	Bach Mai Hospital	Bach Mai Hospital
+h1n1pdm	EPI_ISL_19415089	A/Cambodia/ISVR240076/2024	National Institute of Public Health	National Institute of Public Health
+h1n1pdm	EPI_ISL_19548520	A/California/LACPHL-INF00588/2024	Los Angeles County Public Health Laboratories, Lab Microbial Pathogen Submission Group	
+h1n1pdm	EPI_ISL_19515783	A/Pakistan/NIC/ICT/2480/2024	National Institute of Health	National Institute of Health Pakistan
+h1n1pdm	EPI_ISL_19484769	A/KANAGAWA/IC2379/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19421056	A/Norway/06067/2024	Mikrobiologisk laboratorium, Sykehuset i Vestfold	Norwegian Institute of Public Health
+h1n1pdm	EPI_ISL_19519630	A/France/HDF-IPP09542/2024	Institut Pasteur	Institut Pasteur
+h1n1pdm	EPI_ISL_19587199	A/Bahrain/9561/2024	Ministry of Health Bahrain	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19522920	A/France/HDF-IPP09640/2024	Institut Pasteur	Institut Pasteur
+h1n1pdm	EPI_ISL_19522861	A/Denmark/2287/2024	Statens Serum Institut	Statens Serum Institute
+h1n1pdm	EPI_ISL_19455651	A/England/3620149/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19556815	A/California/LACPHL-INF00599/2024	Los Angeles County Public Health Laboratories, Lab Microbial Pathogen Submission Group	
+h1n1pdm	EPI_ISL_19526972	A/Stockholm/SE24-54247/2024	Klinisk mikrobiologi, Karolinska Universitetslaboratoriet, Karolinska Universitetssjukhuset Solna	Public Health Agency of Sweden
+h1n1pdm	EPI_ISL_19592920	A/Colorado/ISC-1425/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19561251	A/Victoria/3279/2024	Royal Chidrens Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h1n1pdm	EPI_ISL_19527579	A/England/4200831/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19527572	A/England/4100602/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h1n1pdm	EPI_ISL_19462480	A/TOKYO/EIS10-701/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19462465	A/Hong Kong/2674/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h1n1pdm	EPI_ISL_19561927	A/Rio de Janeiro/10667/2024	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h1n1pdm	EPI_ISL_19495952	A/Delaware/81/2024	Delaware Public Health Lab	Centers for Disease Control and Prevention
+h1n1pdm	EPI_ISL_19374062	A/KANAGAWA/IC2374/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h1n1pdm	EPI_ISL_19373879	A/Hubei-Fancheng/SWL1626/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h1n1pdm	EPI_ISL_19373878	A/Sichuan-Gaoxin/SWL1583/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144567	A/Guangdong-Xiangzhou/8395/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144564	A/Guangdong-Chikan/8391/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144561	A/Hainan-Tianya/11014/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144555	A/Guangxi-Longzhou/1484/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144550	A/Guangdong-Maonan/1928/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144546	A/Fujian-Yanping/11201/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144540	A/Xinjiang-Kelamayi/1290/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144530	A/Xinjiang-Midong/1221/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144529	A/Yunnan-Mengliandaizulahuzuwazuzizhi/1210/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144527	A/Shanxi-Chengqu/1423/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20144503	A/Guangxi-Youjiang/1469/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20136662	A/Taiwan/C22085/2025	Taiwan Centers for Disease Control	Taiwan Centers for Disease Control
+h3n2	EPI_ISL_20136659	A/Taiwan/C21957/2025	Taiwan Centers for Disease Control	Taiwan Centers for Disease Control
+h3n2	EPI_ISL_20136375	A/South Africa/PET36379/2025	Wits-VIDA	Vaccines and Infectious Diseases Analytics Research Unit
+h3n2	EPI_ISL_20136371	A/South Africa/PET37707/2025	Wits-VIDA	Vaccines and Infectious Diseases Analytics Research Unit
+h3n2	EPI_ISL_20136327	A/South Africa/PET35971/2025	Wits-VIDA	Vaccines and Infectious Diseases Analytics Research Unit
+h3n2	EPI_ISL_20139008	A/FVG-Gorizia/204/2025	SC (UCO) Igiene e Sanità Pubblica, University of Trieste	Azienda Sanitaria Universitaria Giuliano Isontina (ASU GI)
+h3n2	EPI_ISL_20139000	A/South Africa/PET36051/2025	Wits-VIDA	Vaccines and Infectious Diseases Analytics Research Unit
+h3n2	EPI_ISL_20138854	A/Bangkok/P2390/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20138853	A/Bangkok/P2388/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20138836	A/Nakhon Phanom/P2160/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20138805	A/Nakhon Phanom/P2651/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20138792	A/Nakhon Phanom/P2452/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20138720	A/New Caledonia/82/2025	Institut Pasteur New Caledonia	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20138706	A/Canberra/439/2025	Canberra Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20130904	A/South Australia/2522011747/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20130901	A/South Australia/2522001755/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20130739	A/UTSUNOMIYA/38/2025	Utsunomiya City Institute of Public Health and Environment Science	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20129902	A/Sydney/429/2025	Clinical Virology Unit, CDIM	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20129844	A/Bhutan/SGK09/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20129840	A/Bhutan/00730/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20129839	A/Bhutan/00424/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20140301	A/South Australia/2522414232/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20140299	A/South Australia/2522309976/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20131566	A/Sao Paulo/358398040-IAL/2025	Instituto Adolfo Lutz	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20131564	A/Wisconsin/114/2025	Wisconsin State Laboratory of Hygiene	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20131557	A/California/52/2025	California Department of Health Services	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20131555	A/Michigan/104/2025	Michigan Department of Community Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20131551	A/Cameroon/2038/2025	Centre Pasteur of Cameroon	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20131543	A/Vietnam/4246/2024	National Institute of Hygiene and Epidemiology	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20115166	A/Pernambuco/025745-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20115160	A/Hong Kong/1011/2025	Government Virus Unit	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_20115155	A/Hong Kong/1068/2025	Government Virus Unit	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_20142078	A/KANAGAWA/AC2418/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20142077	A/KANAGAWA/AC2417/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20142076	A/KANAGAWA/AC2416/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20142030	A/Madagascar/74532/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h3n2	EPI_ISL_20142018	A/Madagascar/02844/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h3n2	EPI_ISL_20141993	A/Hong Kong/GIHSN-HKU-250827-004/2025	The University of Hong Kong	The University of Hong Kong
+h3n2	EPI_ISL_20141992	A/Hong Kong/GIHSN-HKU-250827-003/2025	The University of Hong Kong	The University of Hong Kong
+h3n2	EPI_ISL_20141991	A/Hong Kong/GIHSN-HKU-250827-002/2025	The University of Hong Kong	The University of Hong Kong
+h3n2	EPI_ISL_20141858	A/Saint-Petersburg/RII-326/2025	WHO National Influenza Centre Russian Federation	WHO National Influenza Centre Russian Federation
+h3n2	EPI_ISL_20141753	A/Distrito Federal/250106000706/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_20141630	A/Guatemala/C106005/2025	Fundación para la Salud Integral de los Guatemaltecos (FUNSALUD)	Fundación para la Salud Integral de los Guatemaltecos
+h3n2	EPI_ISL_20141017	A/South Africa/5529/2025	National Institute for Communicable Disease	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20133490	A/ABUDHABI/2373/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_20133482	A/Mauritius/55001_I-519/2025	Ministry of Health and Wellness, Mauritius	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_20133474	A/Mauritius/11991_I-254/2025	Ministry of Health and Wellness, Mauritius	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_20125598	A/Indonesia/BIOKES-I_UP0238/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h3n2	EPI_ISL_20125588	A/Indonesia/BIOKES-IBJM336/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h3n2	EPI_ISL_20125584	A/Indonesia/BIOKES-IBBL705/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h3n2	EPI_ISL_20125513	A/Indonesia/BIOKES-SRHS903/2025	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h3n2	EPI_ISL_20125456	A/India/PUD-NIV25-4/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20125449	A/India/PUD-NIV25-1183/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20125448	A/India/JAI-NIV25-1117/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20125446	A/India/JAI-NIV25-1120/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20125313	A/Hong Kong/RFL-248/2025	The Chinese University of Hong Kong	Chinese University of Hong Kong
+h3n2	EPI_ISL_20123854	A/Bhutan/GAS07/2025	Bhutan, National Influenza Centre (NIC)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20123848	A/Queensland/IN001285/2025	Queensland Health Forensic and Scientific Services	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20123840	A/Tasmania/568/2025	Hobart Pathology	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20142091	A/HYOGO/3061/2025	Hyogo Prefectural Institute of Public Health and Consumer Sciences	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20134452	A/South Africa/PET35789/2025	Wits-VIDA	Vaccines and Infectious Diseases Analytics Research Unit
+h3n2	EPI_ISL_20134072	A/Japan/16211/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h3n2	EPI_ISL_20134068	A/Japan/16210/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h3n2	EPI_ISL_20127612	A/Norway/08108/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h3n2	EPI_ISL_20127490	A/Norway/07499/2025	Norwegian Institute of Public Health	Norwegian Institute of Public Health
+h3n2	EPI_ISL_20127332	A/Cambodia/ ISVR250039/2025	National Institute of Public Health	National Institute of Public Health
+h3n2	EPI_ISL_20127240	A/Ulaanbaatar/20251416/2025	National Center for Communicable Diseases	National Center for Communicable Diseases
+h3n2	EPI_ISL_20126953	A/Zacapa/FLU-260/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h3n2	EPI_ISL_20126932	A/Guatemala/FLU-234/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h3n2	EPI_ISL_20126928	A/San Marcos/FLU-229/2025	Laboratorio Nacional de Salud, Guatemala	Laboratorio Nacional de Salud, Guatemala
+h3n2	EPI_ISL_20111303	A/South Australia/2520207709/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20103178	A/Zambia/01-NIC-782/2025	University Teaching Hospital, MoH Zambia	National Influenza Center, Zambia
+h3n2	EPI_ISL_20099489	A/Chongqing-Wanzhou/1416/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20099413	A/Hainan-Danzhou/1907/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20098101	A/ABUDHABI/UAE/0013784/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Purehealth Group Company
+h3n2	EPI_ISL_20097267	A/NIIGATA-C/25144/2025	Niigata City Institute of Public Health and Environment	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20097052	A/French Guiana/909/2025	Centre Hospitalier de l'Ouest Guyanais	Institut Pasteur de la Guyane
+h3n2	EPI_ISL_20101033	A/YAMAGATA/111/2025	Yamagata Prefectural Institute of Public Health	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20099657	A/Shanghai-Pudongxin/1386/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20099652	A/Guangxi-Jiangzhou/1268/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20099650	A/Hunan-Hecheng/1295/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_20102996	A/Colorado/96/2025	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20103098	A/SAO PAULO/CEVI_2500259/2025	Instituto Butantan	Instituto Butantan
+h3n2	EPI_ISL_20087699	A/France/ARA-RELAB-HCL025094937701/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h3n2	EPI_ISL_20087283	A/Nakhon Phanom/P1847/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20095311	A/Paraiba/024454-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20095319	A/Paraiba/024486-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20095305	A/Paraiba/024438-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20088749	A/VALLADOLID/37/2025	Valladolid National Influenza Centre	Valladolid National Influenza Centre
+h3n2	EPI_ISL_20090048	A/Madagascar/00258/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h3n2	EPI_ISL_20091199	A/Darwin/985/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20091174	A/Tasmania/501/2025	Hobart Pathology	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20091183	A/Darwin/956/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20090058	A/Madagascar/81992/2025	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h3n2	EPI_ISL_20090634	A/Nakhon Phanom/P2056/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_20090946	A/South Australia/2509113452/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20091035	A/South Australia/2507500162/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20091032	A/South Australia/2506905060/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20090892	A/Saint-Petersburg/RII-MH245949S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h3n2	EPI_ISL_20093538	A/Lisboa/659/2025	National Institute of Health Dr. Ricardo Jorge, Infectious Diseases Department, National Influenza Reference Laboratory	National Institute for Health Dr. Ricardo Jorge
+h3n2	EPI_ISL_20093540	A/Lisboa/661/2025	National Institute of Health Dr. Ricardo Jorge, Infectious Diseases Department, National Influenza Reference Laboratory	National Institute for Health Dr. Ricardo Jorge
+h3n2	EPI_ISL_20091585	A/Netherlands/10889/2025	National Institute for Public Health and the Environment (RIVM)	National Institute for Public Health and the Environment (RIVM)
+h3n2	EPI_ISL_20078968	A/Texas/16145/2025	U.S. Air Force School of Aerospace Medicine	U.S. Air Force School of Aerospace Medicine
+h3n2	EPI_ISL_20079710	A/South Africa/NICD-R05446/2025	National Institute for Communicable Diseases (NICD)	National Institute for Communicable Diseases (NICD)
+h3n2	EPI_ISL_20079625	A/Singapore/EN0145/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20079642	A/Singapore/GP8242/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20079641	A/Singapore/GP7920/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20079768	A/Sao Luis De Montes Belos/LEIAL5665/2025	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h3n2	EPI_ISL_20079655	A/Singapore/MOH0185/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20079640	A/Singapore/GP7721/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20079631	A/Singapore/GP5927/2025	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_20080761	A/Vietnam/5098/2025	Pasteur Institute, Influenza Laboratory	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20081902	A/Andalucia/1814/2025	Servicio de Microbiología Hospital Virgen de las Nieves	Instituto de Salud Carlos III
+h3n2	EPI_ISL_20085872	A/South Australia/2513103258/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_20086093	A/Catalonia/NSVH102636511/2025	Hospital Universitari Vall d'Hebron	Hospital Universitari Vall d'Hebron
+h3n2	EPI_ISL_20070536	A/Darwin/917/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20070724	A/Darwin/677/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20070727	A/Tasmania/395/2025	Hobart Pathology	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20073110	A/Manitoba/RV04577-25/2025	Cadham Provincial Laboratory	Public Health Agency of Canada (PHAC)
+h3n2	EPI_ISL_20073881	A/Quebec/505/2025	Laboratoire de Santé Publique du Québec	B.C. Centre for Disease Control
+h3n2	EPI_ISL_20075867	A/India/PUN_NIVCOV25560/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075717	A/South Africa/NHLS-SU-CERI-C069331/2025	National Health Laboratory Service, Stellenbosch University	Center for Epidemic Response and Innovation (CERI)
+h3n2	EPI_ISL_20075860	A/India/ DEL_NIV25-669/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20074651	A/Denmark/2992/2025	Statens Serum Institut	Statens Serum Institute
+h3n2	EPI_ISL_20075905	A/India/BHO_NIV25-827/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075906	A/India/BHO_NIV25-826/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20074648	A/Denmark/2976/2025	Statens Serum Institut	Statens Serum Institute
+h3n2	EPI_ISL_20075901	A/India/PUN_NIVCOV25723/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075904	A/India/PUN_NIV25-787/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075897	A/India/PUN_NIV25-279/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075903	A/India/PUN_NIV25-694/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20075902	A/India/PUN_NIV25-815/2025	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_20077434	A/French Guiana/331/2025	Centre Hospitalier de Cayenne	Institut Pasteur de la Guyane
+h3n2	EPI_ISL_20077373	A/Peru/CAJ-INS-589/2025	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h3n2	EPI_ISL_20077380	A/Peru/CAJ-INS-596/2025	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h3n2	EPI_ISL_20063807	A/Galicia/52513081/2025	Complexo Hospitalario Universitario de Vigo	Servicio Galego de Saude
+h3n2	EPI_ISL_20066030	A/YOKOHAMA/49/2025	Yokohama City Institute of Public Health.	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20066027	A/OKINAWA/423/2025	Okinawa Prefectural Institute of Health and Environment	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20068506	A/Zambia/01-NIC-700/2025	University Teaching Hospital, MoH Zambia	National Influenza Center, Zambia
+h3n2	EPI_ISL_20054872	A/NIIGATA-C/25132/2025	Niigata City Institute of Public Health and Environment	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_20054174	A/Distrito Federal/250106000440/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_20054160	A/Distrito Federal/2501087101/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_20054722	A/Queensland/IN001591/2025	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_20058091	A/Oman/CPHL_7252871/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_20058090	A/Oman/CPHL_7252881/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_20058085	A/Oman/CPHL_7252394/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_20058084	A/Oman/CPHL_7252213/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_20058074	A/Oman/CPHL_7251735/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_20059551	A/Paraiba/019413-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20059503	A/New York/NIRC-IS-1342/2025	New York State Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20059262	A/South Africa/3339/2025	National Institute for Communicable Disease	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_20051511	A/Lisboa/618/2025	National Institute of Health Dr. Ricardo Jorge, Infectious Diseases Department, National Influenza Reference Laboratory	National Institute for Health Dr. Ricardo Jorge
+h3n2	EPI_ISL_20053303	A/Zambia/99-NIC-086/2025	University Teaching Hospital, MoH Zambia	National Influenza Center, Zambia
+h3n2	EPI_ISL_19940205	A/Sydney/16/2025	Childrens Hospital Westmead	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19940070	A/Tasmania/46/2025	Royal Hobart Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20048169	A/Rio Grande do Norte/019066-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20046952	A/OKINAWA/413/2025	Okinawa Prefectural Institute of Health and Environment	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19940371	A/Nepal/S870/2025	National Public Health Laboratory	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_20049218	A/South Africa/NICD-R04567/2025	National Institute for Communicable Diseases (NICD)	National Institute for Communicable Diseases (NICD)
+h3n2	EPI_ISL_20048257	A/Paraiba/019432-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_20049485	A/Jeju/778/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_20049064	A/South Africa/NICD-R05362/2025	National Institute for Communicable Diseases (NICD)	National Institute for Communicable Diseases (NICD)
+h3n2	EPI_ISL_19907710	A/Catalonia/NSAV198326877/2025	Hospital Universitari Arnau de Vilanova	Hospital Universitari Vall d'Hebron
+h3n2	EPI_ISL_19907048	A/TOKYO/EIS11-879/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19907039	A/TOKYO/EIS11-846/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19907038	A/TOKYO/EIS11-838/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19906997	A/TOKYO/EIS11-762/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19909713	A/Lebanon/HH-5715/2025	Center for infectious Disease Research	American University of Beirut
+h3n2	EPI_ISL_19908716	A/Lebanon/AU-9149/2025	Center for infectious Disease Research	American University of Beirut
+h3n2	EPI_ISL_19905121	A/ABUDHABI/UAE/0021532/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19905114	A/ABUDHABI/UAE/0021382/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19905014	A/ABUDHABI/UAE/0019563/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19904977	A/ABUDHABI/UAE/0005340/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19904867	A/ABUDHABI/UAE/0000785/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19904861	A/ABUDHABI/UAE/0000653/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19904852	A/ABUDHABI/UAE/0000459/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19899624	A/ABUDHABI/UAE/0005035/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19899600	A/ABUDHABI/UAE/0004278/2025	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19901228	A/Delaware/70/2025	Delaware Public Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19900511	A/Saint-Petersburg/RII-MH240538S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h3n2	EPI_ISL_19900490	A/Saint-Petersburg/RII-MH237133S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h3n2	EPI_ISL_19895765	A/South_Queensland/4/2025	Queensland Health Forensic and Scientific Services	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19895756	A/Darwin/510/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19895070	A/South Africa/PATH-CERI-C068189/2025	National Health Laboratory Service, Stellenbosch University	Center for Epidemic Response and Innovation (CERI)
+h3n2	EPI_ISL_19895937	A/South Africa/PATH-CERI-C068239/2025	National Health Laboratory Service, Stellenbosch University	Center for Epidemic Response and Innovation (CERI)
+h3n2	EPI_ISL_19898498	A/California/LACPHL-INF02008/2025	Los Angeles County Public Health Laboratories, Lab Microbial Pathogen Submission Group	
+h3n2	EPI_ISL_19892502	A/SAO PAULO/CEVI_2500102/2025	Instituto Butantan	Instituto Butantan
+h3n2	EPI_ISL_19891344	A/New York/NIRC-IS-1242/2025	New York State Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19893614	A/Andalucia/PMC-00855/2025	Servicio de Microbiología Hospital Universitario Virgen del Rocío	Fundación Progreso y Salud
+h3n2	EPI_ISL_19893476	A/South Africa/PATH-CERI-C068154/2025	National Health Laboratory Service, Stellenbosch University	Center for Epidemic Response and Innovation (CERI)
+h3n2	EPI_ISL_19885728	A/TOKYO/EIS11-538/2025	Japan Institute for Health Security (JIHS)	Japan Institute for Health Security (JIHS)
+h3n2	EPI_ISL_19888197	A/Bangkok/P856/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19888179	A/Phra Nakhon Si Ayutthaya/F1413/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19889525	A/Hong Kong/RFL-063/2025	The Chinese University of Hong Kong	Chinese University of Hong Kong
+h3n2	EPI_ISL_19889189	A/British Columbia/RV04125-25/2025	B.C. Centre for Disease Control	Public Health Agency of Canada (PHAC)
+h3n2	EPI_ISL_19883312	A/North Carolina/61/2025	North Carolina State Laboratory of Public Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19883178	A/New York/NIRC-IS-1176/2025	New York State Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19883062	A/Malaysia/IMR-RM1203/2025	Hospital Raja Perempuan Zainab II	Institute for Medical Research
+h3n2	EPI_ISL_19885632	A/Distrito Federal/240503001374/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19885405	A/Michigan/MIS-L382476408/2024	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h3n2	EPI_ISL_19885705	A/Distrito Federal/2499283006/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19885697	A/Distrito Federal/2488518601/2025	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19878955	A/Newtown/0715/2025	Public Health Wales Microbiology Cardiff	Public Health Wales Microbiology Cardiff
+h3n2	EPI_ISL_19880466	A/Malaysia/TIDREC_KLA-AUFI401/2025	Tropical Infectious Diseases Research and Education Centre (TIDREC), Universiti Malaya	University of Malaya
+h3n2	EPI_ISL_19875568	A/Victoria/237/2025	Monash Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19875509	A/Cambodia/ KPH250079/2025	National Institute of Public Health	National Institute of Public Health
+h3n2	EPI_ISL_19877159	A/Maranhao/015230-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_19864436	A/Missouri/53/2025	Missouri Department. of Health & Senior Services	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19868380	A/Texas/130/2025	Baylor Scott and White Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19871760	A/Laos/00819-2968/2025	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)
+h3n2	EPI_ISL_19871753	A/Laos/00819-2954/2025	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)
+h3n2	EPI_ISL_19873761	A/Michigan/UM-10062897423/2025	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h3n2	EPI_ISL_19873747	A/Michigan/UM-10063615822/2025	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h3n2	EPI_ISL_19873610	A/Michigan/MIS-L384392503/2024	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h3n2	EPI_ISL_19862417	A/Distrito Federal/240503000967/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19862395	A/Distrito Federal/2442049505/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19862378	A/Distrito Federal/2436838305/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19862375	A/Distrito Federal/2435884201/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19863445	A/Bayern/59/2025	Robert Koch-Institute Nationales Referenzzentrum für Influenza	Robert Koch Institute Nationales Referenzzentrum für Influenza
+h3n2	EPI_ISL_19855821	A/Saint-Petersburg/RII-MH231746S/2025	Research Institute of Influenza, Ministry of Healthcare of the Russian Federation	WHO National Influenza Centre Russian Federation
+h3n2	EPI_ISL_19856628	A/Darwin/420/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19826072	A/Vietnam/FP425095/2025	Bach Mai Hospital	Bach Mai Hospital
+h3n2	EPI_ISL_19826248	A/South Africa/R01788/2025	National Institute for Communicable Diseases (NICD)	National Institute for Communicable Diseases (NICD)
+h3n2	EPI_ISL_19837526	A/La Serena/14406/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h3n2	EPI_ISL_19837522	A/Coyhaique/8445/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h3n2	EPI_ISL_19837521	A/Punta Arenas/8105/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h3n2	EPI_ISL_19837505	A/Puerto Montt/343/2025	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h3n2	EPI_ISL_19844485	A/Paraiba/011019-IEC/2025	Evandro Chagas Institute	Evandro Chagas Institute
+h3n2	EPI_ISL_19843786	A/Rhode Island/48/2025	Rhode Island Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19816703	A/France/ARA-HCL025046398901/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h3n2	EPI_ISL_19817529	A/France/PDL-RELAB-IPP03754/2025	Institut Pasteur	Institut Pasteur Paris
+h3n2	EPI_ISL_19818766	A/TOKYO/EIS11-368/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19818123	A/District Of Columbia/31/2025	DC Public Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19854205	A/Ghana/0787/2025	Noguchi Memorial Institute for Medical Research (NMIMR)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19823519	A/Hong Kong/734/2025	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19759480	A/Punta Arenas/101981/2024	Instituto de Salud Publica de Chile	Instituto de Salud Pública de Chile
+h3n2	EPI_ISL_19794420	A/Gwangju/440/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_19760011	A/Florida/ISC-1416/2024	Florida Department of Health-Tampa	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19796373	A/France/IDF-RELAB-IPP03456/2025	Institut Pasteur	Institut Pasteur Paris
+h3n2	EPI_ISL_19794607	A/Jeonnam/359/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_19794483	A/Jeju/523/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_19763589	A/Galicia/52460463/2025	Complexo Hospitalario Universitario de Ourense	Servicio Galego de Saude
+h3n2	EPI_ISL_19763401	A/Netherlands/10620/2025	National Institute for Public Health and the Environment (RIVM)	National Institute for Public Health and the Environment (RIVM)
+h3n2	EPI_ISL_19762387	A/Ghana/FS-25-0394/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h3n2	EPI_ISL_19762384	A/Ghana/FS-24-7922/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h3n2	EPI_ISL_19762382	A/Ghana/FS-25-0129/2025	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h3n2	EPI_ISL_19798813	A/Mexico/PUE_InDRE_75/2024	Instituto de diagnóstico y Referencia Epidemiologicos INDRE	Instituto de diagnóstico y Referencia Epidemiologicos (INDRE)
+h3n2	EPI_ISL_19767388	A/Togo/1329/2024	Institute National D'Hygiene	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19767380	A/Togo/1431/2024	Institute National D'Hygiene	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19769189	A/Indonesia/BIOKES-IMDN983/2024	Balai Besar Laboratorium Biologi Kesehatan	Balai Besar Laboratorium Biologi Kesehatan
+h3n2	EPI_ISL_19767432	A/Togo/B28/2024	Institute National D'Hygiene	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19803212	A/French Guiana/030/2025	Institut Pasteur de la Guyane	Institut Pasteur de la Guyane
+h3n2	EPI_ISL_19803042	A/Daejeon/585/2025	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_19771252	A/Hawaii/ISC-1036/2025	State of Hawaii Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19804805	A/India/DEL-NIV24_3293/2024	National Institute of Virology	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19772060	A/Washington/UW-20768/2025	Laboratory Medicine and Pathology, University of Washington	
+h3n2	EPI_ISL_19772562	A/Badajoz/18679787/2025	Hospital Universitario de Badajoz	Hospital Universitario de Badajoz
+h3n2	EPI_ISL_19774139	A/Iran/12F30/2024	Tehran University of Medical Sciences	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19774125	A/Cameroon/12596/2024	Centre Pasteur du Cameroun	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19774098	A/Cameroon/10059/2024	Centre Pasteur du Cameroun	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19773980	A/Bahrain/1395/2024	Ministry of Health Bahrain	National Influenza Center, Bahrain
+h3n2	EPI_ISL_19776454	A/Malaysia/TIDREC_KLA-AUFI335/2024	Tropical Infectious Diseases Research and Education Centre (TIDREC), Universiti Malaya	University of Malaya
+h3n2	EPI_ISL_19776589	A/Bahrain/1493/2025	Ministry of Health Bahrain	National Influenza Center, Bahrain
+h3n2	EPI_ISL_19810289	A/KOCHI/5/2024	Kochi Public Health and Sanitation Institute	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19810283	A/SHIMANE/11/2024	Shimane Prefectural Institute of Public Health and Environmental Science	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19777876	A/Virginia/GKISBBBF23385/2025	Concentric by Ginkgo Bioworks	
+h3n2	EPI_ISL_19778290	A/Malaysia/IMR-SARI0573/2025	Hospital Raja Perempuan Zainab II	Institute for Medical Research
+h3n2	EPI_ISL_19778264	A/Canberra/82/2025	Canberra Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19778208	A/Sri Lanka/1/2025	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19778207	A/Sri Lanka/107/2024	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19814772	A/Oman/CPHL_725839/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_19814759	A/Oman/CPHL_725765/2025	Central Public Health Laboratories Oman	Ministry of Health, Central Public Health Laboratory
+h3n2	EPI_ISL_19813489	A/TOKYO/EIS11-306/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19781091	A/Vietnam/F524122/2025	Bach Mai Hospital	Bach Mai Hospital
+h3n2	EPI_ISL_19780872	A/Sydney/41/2025	Childrens Hospital Westmead	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19780856	A/Nepal/N022/2025	National Public Health Laboratory	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19780771	A/Vietnam/PF125014/2025	Bach Mai Hospital	Bach Mai Hospital
+h3n2	EPI_ISL_19783855	A/England/0920176/2025	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h3n2	EPI_ISL_19727805	A/Maldives/2067/2024	Ministry of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19727795	A/India/Pun-Nivcov243936/2024	National Institute of Virology	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19727772	A/Maldives/2410/2024	Ministry of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19731412	A/Queensland/IN000817/2024	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_19729249	A/KOBE/24278/2024	Kobe Institute of Health	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19727809	A/Indiapun-Niv24_2989/2024	National Institute of Virology	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19727587	A/New York/13/2025	New York State Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19734822	A/Canada/ABPHL-1535/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h3n2	EPI_ISL_19734709	A/Canada/ABPHL-1428/2024	Alberta Precision Laboratories, Provincial Laboratory for Public Health	Public Health Agency of Canada (PHAC)
+h3n2	EPI_ISL_19708543	A/France/ARA-HCL025013801301/2025	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h3n2	EPI_ISL_19742172	A/MINAS GERAIS/CEVI_24002308/2024	Instituto Butantan	Instituto Butantan
+h3n2	EPI_ISL_19741762	A/Nepal/N132/2025	National Public Health Laboratory	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19741755	A/Sri Lanka/3/2025	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19741749	A/New Caledonia/106/2024	Institut Pasteur New Caledonia	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19709653	A/ABUDHABI/UAE/0014344/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19709647	A/ABUDHABI/UAE/0014275/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19709644	A/ABUDHABI/UAE/0013919/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19709472	A/Madrid/2431/2024	Servicio de Microbiología Hospital Universitario La Paz	Instituto de Salud Carlos III
+h3n2	EPI_ISL_19743742	A/France/IDF-IPP01389/2025	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19711478	A/Fiji/310/2024	National Centre for Scientific Services for Virology  and Vector Borne Diseases	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19711407	A/India/Kum-NIV24_3385/2024	ICMR-National Institute of Virology	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19744640	A/Brazil/SP-LEIAL4295/2024	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h3n2	EPI_ISL_19711919	A/ABUDHABI/UAE/0016786/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711917	A/ABUDHABI/UAE/0016720/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711912	A/ABUDHABI/UAE/0016630/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711909	A/ABUDHABI/UAE/0016300/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711867	A/ABUDHABI/UAE/0019789/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711853	A/ABUDHABI/UAE/0017816/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711839	A/ABUDHABI/UAE/0021116/2024	Reference Laboratory for Infectious Disease (Surveillance Lab)	Sheikh Khalifa Medical City (SKMC)
+h3n2	EPI_ISL_19711776	A/NIIGATA-C/24160/2024	Niigata City Institute of Public Health and Environment	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19711629	A/New Caledonia/51/2024	Institut Pasteur New Caledonia	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19711616	A/Darwin/26/2025	Royal Darwin Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19711553	A/Sri Lanka/109/2024	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19711517	A/Thailand/15/2024	WHO National Influenza Centre, National Institute of Medical Research (NIMR)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19711516	A/Sri Lanka/112/2024	Medical Research Institute	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19745568	A/Bhutan/1918/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19745536	A/Bhutan/0493/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19745386	A/Ecuador/6638/2024	INSPI	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19745524	A/Bhutan/1737/2024	Royal Centre for Disease Control	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19715106	A/Singapore/NTF0281/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_19747906	A/Madrid/428/2025	Instituto de Salud Carlos III	Instituto de Salud Carlos III
+h3n2	EPI_ISL_19716931	A/Hong Kong/229/2025	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19718725	A/Yunnan-Mengliandaizulahuzuwazuzizhi/1185/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19718722	A/Jilin-Hunjiang/135/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19718721	A/Hainan-Danzhou/119/2025	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19753057	A/South Australia/2502703394/2025	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_19753706	A/Phra Nakhon Si Ayutthaya/F450/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19753702	A/Nakhon Phanom/F430/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19753582	A/South Australia/2432806958/2024	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_19753566	A/South Australia/2435506994/2024	SA Pathology	SA Pathology Laboratory
+h3n2	EPI_ISL_19723702	A/Algeria/339/2025	Institut Pasteur d'Algerie	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19756932	A/OSAKA/57/2024	Osaka Prefectural Institute of Public Health	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19756924	A/GUNMA/254/2024	Gunma Prefectural Institute of Public Health and Environmental Sciences	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19726033	A/Massachusetts/ISC-1142/2025	Massachusetts Department of Public Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19628517	A/Colorado/ISC-1334/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19628153	A/New York/177/2024	New York State Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19661525	A/Hong Kong/3063/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19661482	A/Brisbane/508/2024	Institute of Medical and Veterinary Science (IMVS)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19661480	A/Brunei/177/2024	R.I.P.A.S. Hospital, Department of Laboratory Services	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19661476	A/Sydney/1351/2024	Childrens Hospital Westmead	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19661447	A/New Caledonia/31/2024	Institut Pasteur New Caledonia	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19631332	A/Oman/CPHL_7248593/2024	Central Public Health Laboratories Oman	Central Public Health Laboratories Oman
+h3n2	EPI_ISL_19631328	A/Oman/CPHL_7248310/2024	Central Public Health Laboratories Oman	Central Public Health Laboratories Oman
+h3n2	EPI_ISL_19597311	A/Philippines/ILI24-2331/2024	Baguio General Hospital and Medical Center	Research Institute for Tropical Medicine
+h3n2	EPI_ISL_19665841	A/Distrito Federal/2422455404/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19665068	A/Austria/1779533/2024	Department of Virology, Medical University Vienna	Medical University Vienna
+h3n2	EPI_ISL_19664765	A/Queensland/IN000688/2024	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_19633040	A/Phuket/P3972/2024	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19599348	A/Shanghai-Minxing/1785/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19599344	A/Jiangsu-Hailing/11583/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19599337	A/Yunnan-Mile/2277/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19700021	A/Michigan/UM-10060277712/2024	University of Michigan, Lauring Lab, Department of Microbiology and Immunology	
+h3n2	EPI_ISL_19665888	A/Distrito Federal/2426906801/2024	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
+h3n2	EPI_ISL_19633758	A/SHIZUOKA/88/2024	Shizuoka Institute of Environment and Hygiene	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19700714	A/Perth/1148/2024	Pathwest QE II Medical Centre	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19700755	A/Canberra/35/2025	Canberra Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19668121	A/Philippines/1764/2024	Research Institute for Tropical Medicine, Virology Department	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19668083	A/Ghana/7375/2024	Noguchi Memorial Institute for Medical Research (NMIMR)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19668071	A/Philippines/1957/2024	Research Institute for Tropical Medicine, Virology Department	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19668065	A/Bangladesh/3205/2024	Institute of Epidemiology Disease Control and Research (IEDCR) & Bangladesh National Influenza Centre (NIC)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19668022	A/Peru/2015/2024	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19602764	A/Cambodia/IAHC240340/2024	National Institute of Public Health	National Institute of Public Health
+h3n2	EPI_ISL_19668886	A/Colorado/ISC-1494/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19636057	A/Hong Kong/2938/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19603024	A/Ashgabat/784S/2024	Public Health and Nutrition Center	Public Health and Nutrition Center
+h3n2	EPI_ISL_19602977	A/Halmstad/SE24-16199/2024	Klinisk mikrobiologi, Hallands sjukhus Halmstad	Public Health Agency of Sweden
+h3n2	EPI_ISL_19669052	A/New York/PX10077/2024	Icahn School of Medicine at Mount Sinai	Icahn School of Medicine at Mount Sinai
+h3n2	EPI_ISL_19704578	A/Laos/00820-2300/2024	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)	MORU Tropical Health Network
+h3n2	EPI_ISL_19704265	A/Madagascar/81992/2024	Institut Pasteur de Madagascar	Institut Pasteur de Madagascar
+h3n2	EPI_ISL_19705952	A/India/Delhi-NIV24_3293/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_19705934	A/India/Bib-NIV24_3096/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_19705143	A/Laos/00925-1654/2024	Lao Oxford Mahosot Wellcome Trust Research Unit (LOMWRU)	MORU Tropical Health Network
+h3n2	EPI_ISL_19674918	A/Shanghai-Yangpu/11306/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19674915	A/Zhejiang-Haining/144/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19674909	A/Shandong-Rencheng/11393/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19674894	A/Fujian-Fuan/1200/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19608547	A/Netherlands/01901/2024	Erasmus Medical Center	Erasmus Medical Center
+h3n2	EPI_ISL_19676573	A/Tasmania/780/2024	Royal Hobart Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19676556	A/Fiji/206/2024	National Centre for Scientific Services for Virology  and Vector Borne Diseases	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19674907	A/Hunan-Yuhua/11730/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19674898	A/Beijing-Fengtai/1220/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19642838	A/India/Gang-NIV24_2689/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_19642630	A/Gwangju/4088/2024	Korea Disease Control and Prevention Agency (KDCA)	Korea Disease Control and Prevention Agency (KDCA)
+h3n2	EPI_ISL_19676852	A/KANAGAWA/IC2408/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19676675	A/TOKYO/EIS11-161/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19644039	A/Qatar/83304/2024	Supreme Health Council	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19644020	A/Firq/7245406/2024	Central Public Health Laboratory, Ministry of Health	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19611307	A/Ecuador/NIC-0217-6103/2024	Instituto Nacional de Investigacion en Salud Publica (INSPI)	Instituto Nacional de Investigacion en Salud Publica (INSPI)
+h3n2	EPI_ISL_19678568	A/Niger/9398/2024	Centre de Recherche Medicale et Sanitaire (CERMES)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19678566	A/Niger/141/2024	Centre de Recherche Medicale et Sanitaire (CERMES)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19678553	A/Hong Kong/9740/2024	Government Virus Unit	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19678543	A/Niger/043/2024	Centre de Recherche Medicale et Sanitaire (CERMES)	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19681041	A/England/5221145/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h3n2	EPI_ISL_19680563	A/South Africa/R08791/2024	National Institute for Communicable Diseases (NICD)	National Institute for Communicable Diseases (NICD)
+h3n2	EPI_ISL_19648354	A/Peru/LIM-INS-228/2024	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h3n2	EPI_ISL_19648338	A/Peru/LIM-INS-212/2024	Laboratorio de Referencia Nacional Virus Respiratorios, Instituto Nacional de Salud	Instituto Nacional de Salud Peru
+h3n2	EPI_ISL_19649440	A/France/ARA-HCL024199710901/2024	CNR Virus des Infections Respiratoires - France SUD	CNR Virus des Infections Respiratoires, France SUD
+h3n2	EPI_ISL_19649434	A/India/Pun-NIV24_2581/2024	ICMR-National Institute of Virology	ICMR-National Institute of Virology
+h3n2	EPI_ISL_19616599	A/TOKYO/EIS11-075/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19652394	A/Catalonia/NSVH102484523/2024	Hospital Universitari Vall d'Hebron	Hospital Universitari Vall d'Hebron
+h3n2	EPI_ISL_19686042	A/Saskatchewan/SKFLU409526/2024	Roy Romanow Provincial Laboratory	Saskatchewan Health Authority
+h3n2	EPI_ISL_19685434	A/Netherlands/10641/2024	National Institute for Public Health and the Environment (RIVM)	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19685422	A/England/173/2024	UK Health Security Agency - Colindale	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19685404	A/HongKong/2743/2024	Government Virus Unit	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19685402	A/HongKong/2725/2024	Government Virus Unit	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19687842	A/CoteD'Ivoire/4452/2024	Pasteur Institut of Côte d'Ivoire	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19687841	A/CoteD'Ivoire/4460/2024	Pasteur Institut of Côte d'Ivoire	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19687239	A/Slovakia/uvzsr-896/2024	Public Health Authority of the Slovak Republic	Comenius University Science Park
+h3n2	EPI_ISL_19687015	A/Dakar/034/2024	Institut Pasteur de Dakar	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19690944	A/CoteD'Ivoire/4365/2024	Pasteur Institut of Côte d'Ivoire	Crick Worldwide Influenza Centre
+h3n2	EPI_ISL_19690032	A/Bangkok/P8/2025	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19657968	A/Espirito Santo/12251/2024	LACEN/ES - Laboratório Central de Saúde Pública do Espírito Santo	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h3n2	EPI_ISL_19628030	A/Michigan/117/2024	Michigan Department of Community Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19692390	A/Singapore/KK2517/2024	Ministry of Health, Singapore	Ministry of Health, Singapore
+h3n2	EPI_ISL_19595994	A/Vietnam/PF124444/2024	Bach Mai Hospital	Bach Mai Hospital
+h3n2	EPI_ISL_19529842	A/Netherlands/01813/2024	Erasmus Medical Center	Erasmus Medical Center
+h3n2	EPI_ISL_19497986	A/Hong Kong/2712/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19464338	A/Netherlands/10633/2024	National Institute for Public Health and the Environment (RIVM)	National Institute for Public Health and the Environment (RIVM)
+h3n2	EPI_ISL_19466540	A/Colorado/ISC-1271/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19500844	A/Queensland/IN000455/2024	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_19567669	A/Philippines/OBI24-0018/2024	Research Institute for Tropical Medicine, Virology Department	Research Institute for Tropical Medicine
+h3n2	EPI_ISL_19566816	A/England/4360365/2024	UK Health Security Agency - Colindale	UKHSA / Respiratory Virus Unit
+h3n2	EPI_ISL_19567699	A/Chiang Rai/F2483/2024	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19504980	A/TOKYO/EIS10-725/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19504969	A/TOKYO/EIS10-797/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19504968	A/TOKYO/EIS10-763/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19437631	A/TOKYO/EIS10-564/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19437511	A/Hong Kong/2506/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19539152	A/Utah/66/2024	Utah Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19572459	A/Tak/F1279/2024	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19539647	A/TOKYO/EIS10-946/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19543634	A/Queensland/IN000672/2024	Pathology Queensland	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_19543588	A/Queensland/IN000618/2024	QLD, Sullivan Nicolaides Pathology	Public and Environmental Health Reference Laboratories (PEHRL)
+h3n2	EPI_ISL_19445356	A/Colorado/176/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19545431	A/Sao Paulo/IAL/357980311/2024	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h3n2	EPI_ISL_19545394	A/Mato Grosso do Sul/IAL/500907801/2024	Instituto Adolfo Lutz - National Influenza Center	Instituto Adolfo Lutz
+h3n2	EPI_ISL_19447538	A/Ranong/D526/2024	Thai National Influenza Center	Thai National Influenza Center
+h3n2	EPI_ISL_19516343	A/Bono/FS-24-4458/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h3n2	EPI_ISL_19516191	A/Ghana/FS-24-5119/2024	NOGUCHI MEMORIAL INSTITUTE FOR MEDICAL RESEARCH	Noguchi Memorial Institute for Medical Research (NMIMR)
+h3n2	EPI_ISL_19388754	A/Hong Kong/2468/2024	Hong Kong Department of Health	Hong Kong Department of Health
+h3n2	EPI_ISL_19519636	A/France/IDF-RELAB-IPP09736/2024	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19519620	A/France/GES-RELAB-IPP09400/2024	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19421290	A/Dominican_Republic/1079/2024	Laboratorio Nacional de Salud Publica Dr. Defillo	Laboratorio Nacional de Salud Pública Dr. Defilló
+h3n2	EPI_ISL_19587021	A/Louisiana/09/2024	Louisiana Department of Health and Hospitals	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19586930	A/Pennsylvania/286/2024	Pennsylvania Department of Health	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19554760	A/France/BFC-RELAB-IPP12102/2024	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19456832	A/Netherlands/01800/2024	Erasmus Medical Center	Erasmus Medical Center
+h3n2	EPI_ISL_19588820	A/Minas Gerais/12121/2024	FUNED MG	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
+h3n2	EPI_ISL_19458283	A/South Australia/192/2024	Institute of Medical and Veterinary Science (IMVS)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19458229	A/South Australia/145/2024	Institute of Medical and Veterinary Science (IMVS)	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19493371	A/Victoria/2409/2024	Austin Health	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19495365	A/Bangladesh/2003/2024	icddr,b International Centre for Diarrhoeal Disease Research, Bangladesh	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19495332	A/Colorado/178/2024	Colorado Department of Health Lab	Centers for Disease Control and Prevention
+h3n2	EPI_ISL_19429928	A/Senegal/IPD-3052/2024	Institut Pasteur de Dakar	Institut Pasteur de Dakar
+h3n2	EPI_ISL_19561168	A/Tasmania/757/2024	Royal Hobart Hospital	WHO Collaborating Centre for Reference and Research on Influenza
+h3n2	EPI_ISL_19529570	A/France/GES-RELAB-IPP11502/2024	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19529542	A/France/IDF-RELAB-IPP10382/2024	Institut Pasteur	Institut Pasteur
+h3n2	EPI_ISL_19463979	A/TOKYO/EIS10-649/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19463973	A/TOKYO/EIS10-625/2024	National Institute of Infectious Diseases (NIID)	National Institute of Infectious Diseases (NIID)
+h3n2	EPI_ISL_19373767	A/Chongqing-Yongchuan/519/2024	WHO Chinese National Influenza Center	WHO Chinese National Influenza Center
+h3n2	EPI_ISL_19322716	A/Netherlands/01702/2024	Erasmus Medical Center	Erasmus Medical Center
+h3n2	EPI_ISL_19357130	A/Hong Kong/2293/2024	Hong Kong Department of Health	Hong Kong Department of Health
